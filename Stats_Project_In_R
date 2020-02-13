@@ -1,0 +1,29 @@
+---
+title: "Hockey 2019 Stanley Cup Analysis"
+author: "Nicholas Jacob"
+date: "2/13/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+df <- read.csv("https://raw.githubusercontent.com/nurfnick/Data_Sets_For_Stats/master/hockey.csv")
+```
+
+## The 2018-2019 Hockey Season
+
+This was an exciting hockey season for me. My team home town team, St. Louis Blues, won Lord Stanley's Cup.  I wanted to examine the season and use the R programming language.
+
+```{r}
+#summary(df)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+#hist(df["GP"])
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
