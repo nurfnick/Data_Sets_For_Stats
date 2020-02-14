@@ -12,10 +12,33 @@ df <- read.csv("https://raw.githubusercontent.com/nurfnick/Data_Sets_For_Stats/m
 
 ## The 2018-2019 Hockey Season
 
-This was an exciting hockey season for me. My team home town team, St. Louis Blues, won Lord Stanley's Cup.  I wanted to examine the season and use the R programming language to do so.  I gathered my data from hockeyreference.com going to the Skaters tab and selecting basic stats.
+This was an exciting hockey season for me. My team home town team, St. Louis Blues, won Lord Stanley's Cup.  I wanted to examine the season and use the R programming language to do so.  I gathered my data from hockeyreference.com going to the Skaters tab and selecting basic stats.  I then took that data, created a csv file and uploaded that file to my github account.  I reference that data set here via direct link to read the csv into the programming language as a data frame.  Below is a sample of my data:
 
 ```{r}
-summary(df)
+df[1:10,]
+```
+
+
+There is a couple of interesting things we should point out right away.  We notice that Pontus Aberg is listed multiple times.  This is because he was traded during the season.  The stats from both teams have been recorded as well as his totals (signified by TOT).  We will need to be careful and deal with this before we proceed.  Let's first see how many payers there were in the season
+```{r uniques}
+players <- unique(df["Player"])
+
+players
+
+```
+Looks like there were 906 unique players.  Next let's see how many were traded throughout the season.
+
+```{r}
+trades <- df[which(df$Tm=='TOT'),]
+trades
+```
+Looks like 81 players played with multiple teams during the season.  I will just keep the data for the season and not for each of their individual teams that they played for.
+
+```{r}
+tradedplayers <- trades['Player']
+what <- df['Player'] %in% c(tradedplayers)
+what
+c(tradedplayers)
 ```
 
 ## Including Plots
