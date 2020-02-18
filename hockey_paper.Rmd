@@ -23,32 +23,39 @@ There is a couple of interesting things we should point out right away.  We noti
 ```{r uniques}
 players <- unique(df["Player"])
 
-`length<-`(players,1)
+length(players$Player)
 
 ```
 Looks like there were 906 unique players.  Next let's see how many were traded throughout the season.
 
 ```{r}
 trades <- df[which(df$Tm=='TOT'),]
-trades
+length(trades$Player)
 ```
 Looks like 81 players played with multiple teams during the season.  I will just keep the data for the season and not for each of their individual teams that they played for.
 
 ```{r}
 tradedplayers <- trades$Player
-
 nottraded <- df[-which(df$Player %in% tradedplayers),]
-
 df <- rbind(trades,nottraded)
 df
+```
+So now my data set just includes individual players with no duplicates.  Let's see if we can analize the varaibles. 
+```{r}
+summary(df)
+```
+So this output is very intense!  It went through every variable (and the case descriptors) and did some basic analysis of each.  I am interested in the plus/minus discrete quantitative variable but it is not named properly so let's fix that
+
+```{r}
+names(df)[names(df)=='X...'] <- 'PM'
 ```
 
 ## Including Plots
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-#hist(df["GP"])
+```{r plus/minus, echo=FALSE}
+hist(df$PM)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
