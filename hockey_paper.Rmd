@@ -35,10 +35,12 @@ trades
 Looks like 81 players played with multiple teams during the season.  I will just keep the data for the season and not for each of their individual teams that they played for.
 
 ```{r}
-tradedplayers <- list(trades['Player'])
-#apply(df['Player'],1,function(r) any(r %in% tradedplayers))
+tradedplayers <- trades$Player
 
-#df$Player %in% tradedplayers
+nottraded <- df[-which(df$Player %in% tradedplayers),]
+
+df <- rbind(trades,nottraded)
+df
 ```
 
 ## Including Plots
