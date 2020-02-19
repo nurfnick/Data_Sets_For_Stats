@@ -50,12 +50,30 @@ So this output is very intense!  It went through every variable (and the case de
 names(df)[names(df)=='X...'] <- 'PM'
 ```
 
+## Categorical Variables
+
+I want to examine the categorical variables for my project.  Let's recreate one of the frequency tables above and see if we can get relative frequency in it.
+
+```{r}
+options(digits=2)
+freq <- rbind(table(df$Pos),table(df$Pos)/length(df$Pos))
+row.names(freq)<-c('Frequency','Relative Frequency')
+freq
+```
+Cool!  We see about 34% of the leagues skaters are centers and there are sigificantly more Left Wingers than right.
+
+Next let's look at a two way table.
+```{r}
+table(df$Pos,df$Tm)
+```
+Not the most interesting table I have ever made but there are a few interesting aspects like Pittsburg Penguins and San Jose Sharks only had 1 left winger.
+
 ## Including Plots
 
 You can also embed plots, for example:
 
 ```{r plus/minus, echo=FALSE}
 hist(df$PM)
-```
+``` 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
