@@ -6,6 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 df <- read.csv("https://raw.githubusercontent.com/nurfnick/Data_Sets_For_Stats/master/hockey.csv")
 ```
@@ -38,7 +39,7 @@ Looks like 81 players played with multiple teams during the season.  I will just
 tradedplayers <- trades$Player
 nottraded <- df[-which(df$Player %in% tradedplayers),]
 df <- rbind(trades,nottraded)
-df
+df[1:10,1:10]
 ```
 So now my data set just includes individual players with no duplicates.  Let's see if we can analize the varaibles. 
 ```{r}
@@ -66,7 +67,54 @@ Next let's look at a two way table.
 ```{r}
 table(df$Pos,df$Tm)
 ```
-Not the most interesting table I have ever made but there are a few interesting aspects like Pittsburg Penguins and San Jose Sharks only had 1 left winger.
+Not the most interesting table I have ever made but there are a few interesting aspects like Pittsburg Penguins and San Jose Sharks only had 1 left winger.  I have no idea why that might be the case, perhaps they are not "natural" left wingers but still play on that side and are therefore not counted.
+
+##Quanitative Variables
+
+I am going to examine the plus/minus of the players, I think it is one of the most acurate statistics of a player's overall effectiveness on the ice.  Below is the 5 number summary, the mean and standard deviation.
+```{r plus/minus}
+summary(df$PM)
+sd(df$PM)
+```
+Now let's generate some graphics.  A histogram will show if the data is bell shaped and a box plot will help me look for outliers
+```{r}
+hist(df$PM)
+
+```
+```{r}
+boxplot(df$PM, horizontal = TRUE, xlab = 'Plus/Minus')
+```
+Looks rather bell shaped but there are many outliers!  I want to see if I am truely normal so I will also examine the QQ Plot
+```{r}
+qqnorm(df$PM)
+```
+The data almost lies on the line so I will go with approximately normal.
+
+For the side-by-side chart, I want to compare team plus/minus.  I will do this with box plots
+```{r}
+boxplot(df$PM ~ df$Tm, ylab ='Plus/Minus', xlab ="Teams")
+```
+The teams have been put in alphabetical order so it is hard to tell if there is a pattern but the number of outliers here is greatly reduced.
+
+## Linear Regression
+
+I like linear regression, so I will do it here even if it wasn't required anywhere for the project.
+```{r}
+plot(df$PM,df$G,xlab = 'Plus/Minus', ylab = 'Goals')
+abline(lm(df$G~df$PM))
+```
+This plot is really boring, I want to spice it up a bit.  Let's see if I can get the teams in there too.
+```{r}
+ggplot(df,aes(x = PM, y = G, color=Tm))+
+  geom_point()
+```
+So now each team is coloured.  For giggles, let's see what happens if we do a linear regression for each team.
+```{r}
+ggplot(df,aes(x = PM, y = G, color=Tm))+
+  geom_point()+
+  geom_smooth(method = "lm", se = FALSE)
+```
+Weirdly enough on some teams, scoring more goals will mean you have a worse plus/minus.  This seems counter intuitive but it might be a result of cutting the data up too much.
 
 ## Including Plots
 
