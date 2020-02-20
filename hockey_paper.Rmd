@@ -7,6 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(boot)
 knitr::opts_chunk$set(echo = TRUE)
 df <- read.csv("https://raw.githubusercontent.com/nurfnick/Data_Sets_For_Stats/master/hockey.csv")
 ```
@@ -45,10 +46,11 @@ So now my data set just includes individual players with no duplicates.  Let's s
 ```{r}
 summary(df)
 ```
-So this output is very intense!  It went through every variable (and the case descriptors) and did some basic analysis of each.  I am interested in the plus/minus discrete quantitative variable but it is not named properly so let's fix that
+So this output is very intense!  It went through every variable (and the case descriptors) and did some basic analysis of each.  I am interested in the plus/minus discrete quantitative variable but it is not named properly so let's fix that.  I'll also grab the data for just my team.
 
 ```{r}
 names(df)[names(df)=='X...'] <- 'PM'
+blues <- df[which(df$Tm == 'STL'),]
 ```
 
 ## Categorical Variables
@@ -78,17 +80,25 @@ sd(df$PM)
 ```
 Now let's generate some graphics.  A histogram will show if the data is bell shaped and a box plot will help me look for outliers
 ```{r}
-hist(df$PM)
-
+hist(df$PM, xlab = 'Plus/Minus', main = 'Histogram of Plus/Minus')
 ```
+
+
 ```{r}
-boxplot(df$PM, horizontal = TRUE, xlab = 'Plus/Minus')
+boxplot(df$PM, horizontal = TRUE, xlab = 'Plus/Minus', main = 'Box Plot of Plus/Minus')
 ```
 Looks rather bell shaped but there are many outliers!  I want to see if I am truely normal so I will also examine the QQ Plot
 ```{r}
 qqnorm(df$PM)
 ```
 The data almost lies on the line so I will go with approximately normal.
+
+I am also curious what the St. Louis Blues data might look like.
+```{r}
+hist(blues$PM, xlab ='Blues Plus/Minus', main = 'Histogram of Blues Plus/Minus')
+```
+
+
 
 For the side-by-side chart, I want to compare team plus/minus.  I will do this with box plots
 ```{r}
@@ -114,14 +124,55 @@ ggplot(df,aes(x = PM, y = G, color=Tm))+
   geom_point()+
   geom_smooth(method = "lm", se = FALSE)
 ```
-Weirdly enough on some teams, scoring more goals will mean you have a worse plus/minus.  This seems counter intuitive but it might be a result of cutting the data up too much.
+Weirdly enough on some teams, scoring more goals will mean you have a worse plus/minus.  This seems counter intuitive but it might be a result of cutting the data up too much.  Let's also use this same package to make the side=by-side charts with colours.
+```{r}
+ggplot(df,aes(x = G,y=PM, color=Tm))+
+  geom_boxplot() + coord_flip()
+```
+I am not certain this table says much but it sure is pretty...
 
-## Including Plots
+##Hypothesis Testing
 
-You can also embed plots, for example:
- 
-```{r plus/minus, echo=FALSE}
-hist(df$PM)
-``` 
+I would like to check and see if the Blues had a higher plus/minus than the average.  So I am would like to establish the hypothesis test, so I state my null and alternative hypothesis as
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+$$
+H_0:\quad \mu_{Blues}=-1\\
+H_a:\quad \mu_{Blues}\neq-1.
+$$
+I have picked $-1$ here as that was the mean and median for the data set.
+
+Let's go ahead and create a bootstrap here for the blues plus/minus
+
+```{r}
+
+samp_mean <- function(x, i) {
+  mean(x[i])
+}
+boot(blues$PM, samp_mean, 10000)
+```
+```{r}
+plot(boot(blues$PM, samp_mean, 10000))
+```
+
+
+So we now that the mean was $\overline{x} =2.5$ and $SE=1.3$ so we will build a 95% confidence interval 
+```{r}
+c(2.5-2*1.3,2.5+2*1.3)
+```
+We note that the Blues confidence interval did not contain $-1$ so we are able to reject the null hypothesis, there for we have evidence to suggest that the Blues were better than the average team (at least in plus/minus).
+
+Let's go ahead and compute this value using the formula
+
+$$
+SE = \frac{s}{\sqrt{n}}.
+$$
+But first I am going to need the sample standard deviation,
+```{r}
+sd(blues$PM)/sqrt(length(blues$PM))
+```
+Wow that was exactly the same as the bootstrapping!  No need to build another confidence interval instead we'll compute a $p$ value using the $t$ distribution.
+
+```{r}
+t.test(blues$PM, mu =-1)
+```
+My $p=0.01$ so that we will be able to reject the null hypothesis as expected.
