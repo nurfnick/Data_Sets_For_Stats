@@ -119,7 +119,7 @@ Weirdly enough on some teams, scoring more goals will mean you have a worse plus
 ## Including Plots
 
 You can also embed plots, for example:
-
+ 
 ```{r plus/minus, echo=FALSE}
 hist(df$PM)
 ``` 
