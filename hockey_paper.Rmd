@@ -176,3 +176,59 @@ Wow that was exactly the same as the bootstrapping!  No need to build another co
 t.test(blues$PM, mu =-1)
 ```
 My $p=0.01$ so that we will be able to reject the null hypothesis as expected.
+
+I would also like to do a hypothesis test on a proportion.  Let's compare the proportion of right wingers and left wingers and see if they are different.  In statistical language, my null hypothesis is that these proportions are equal and my alternative is that they are different.
+
+$$
+H_0:\quad p_{rw}=p_{lw}\\
+H_a:\quad p_{rw}\neq p_{lw} 
+$$
+```{r}
+myprop<-function(x,i){
+sum(x[i]==TRUE)/length(x)
+}
+
+boot(df$Pos=="LW",myprop,1000)
+```
+
+So my 95\% confidence interval for left wingers is
+```{r}
+c(0.160-2*0.012,0.160+2*0.012)
+```
+Let's do the same for right wingers
+```{r}
+boot(df$Pos=="RW",myprop,1000)
+```
+```{r}
+c(0.140-2*0.011,0.140+2*0.011)
+```
+So we notice that both point estimates of the statistics fall within the other's 95\% confidence interval so we are going to fail to reject the null hypothesis, there is no difference between the proportion of right and left wingers.  I should note that the second bootstrap was not necessary but I wanted to try it anyway.  Also let's generate some visuals while we are doing things that are not neccessary.
+```{r}
+plot(boot(df$Pos=="RW",myprop,1000))
+```
+
+
+Let's try this same test with the traditional methods.  I'll use the pooled proportion $\hat p=\frac{\hat{p}_1n_1+\hat{p}_2n_2}{n_1+n_2}$
+
+```{r}
+p = (sum(df$Pos=="LW")+sum(df$Pos=="RW"))/(2*length(df$Pos))
+```
+
+So then the Standard Error will be calculated as
+$$
+SE=\sqrt{\frac{\hat{p}(1-\hat{p})}{n_1}+\frac{\hat{p}(1-\hat{p})}{n_2}}
+$$
+
+So here that is 
+
+```{r}
+se = sqrt(2*p*(1-p)/length(df$Pos))
+```
+
+So the test statistic here will be $z=\frac{(\hat{p}_1-\hat{p}_2)-0}{SE}$
+
+```{r}
+(sum(df$Pos=="LW")/length(df$Pos)-sum(df$Pos=="RW")/length(df$Pos))/se
+```
+
+We see this $z$ is between -2 and 2 so we fail to reject the null hypothesis at the 95\% confidence level.
