@@ -1,0 +1,29 @@
+---
+title: "Election_Visualization"
+author: "Nicholas Jacob"
+date: "3/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+df <- read.csv("https://query.data.world/s/tkhnb63tetiu2ldx6jws3nk63wy2y5", header=TRUE, stringsAsFactors=FALSE);
+```
+
+## Visualization of Results
+
+```{r cars}
+summary(df)
+```
+```{r}
+interestingStates <- list("Nebraska","Oklahoma")
+ggplot(df, aes(x=Winning.Party, y=Votes, label=State ))+
+  geom_boxplot() + 
+  coord_flip() +  
+#  geom_point(aes(label=ifelse(State %in% interestingStates,as.character(State),'')))+
+  geom_text(aes(label=ifelse(Votes>24,as.character(State),'')),hjust=.2,vjust=-0.4)+
+  geom_text(aes(label=ifelse(State %in% interestingStates,as.character(State),'')),hjust=0,vjust=0,color="Red")+
+   geom_point(data = subset(df, State %in% interestingStates), color="Red",)
+```
+
