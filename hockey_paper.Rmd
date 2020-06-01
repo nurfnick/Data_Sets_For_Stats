@@ -136,7 +136,7 @@ ggplot(df,aes(x = G,y=PM, color=Tm))+
 ```
 I am not certain this table says much but it sure is pretty...
 
-##Hypothesis Testing:  Project Part 4
+## Hypothesis Testing:  Project Part 4
 
 I would like to check and see if the Blues had a higher plus/minus than the average.  So I am would like to establish the hypothesis test, so I state my null and alternative hypothesis as
 
@@ -199,6 +199,7 @@ So we notice that both point estimates of the statistics fall within the other's
 ```{r}
 plot(boot(df$Pos=="RW",myprop,1000))
 ```
+
 ## Categorical Hypothesis Test:  Project Part 6
 
 I would also like to do a hypothesis test on a proportion.  Let's compare the proportion of right wingers and left wingers and see if they are different.  In statistical language, my null hypothesis is that these proportions are equal and my alternative is that they are different.
@@ -234,7 +235,9 @@ So the test statistic here will be $z=\frac{(\hat{p}_1-\hat{p}_2)-0}{SE}$
 ```
 
 We see this $z$ is between -2 and 2 so we fail to reject the null hypothesis at the 95\% confidence level.
+
 ## Quantitative Hypothesis Testing:  Project Part 7
+
 Let's go ahead and compute this value using the formula
 
 $$
@@ -253,4 +256,22 @@ My $p=0.01$ so that we will be able to reject the null hypothesis as expected.
 
 ## Conditional Probabilities:  Project Part 8
 
-So for the last part of the project 
+So for the last part of the project I will compute some conditional probabilities using the two way table I created for Part 2.  Let's recreate that table for easier access.
+```{r}
+table(df$Pos,df$Tm)
+```
+Then I'll ask a few questions.  Given that a player was on the Blues, what is the probability that they are a Left Winger?
+$$
+P(LW|Blues)=\frac{P(LW\cap Blues)}{P(Blues)}=\frac{n(LW\cap Blues)}{n(Blues)}=\frac 5{30}=\frac16
+$$
+
+
+I did some simplifications there since both of the probabilities have the same denominator it is not necessary!  
+
+Let's do the conditional probability the other way.  Given that a player was a left winger, what is the probability that they played on the blues?
+
+$$
+P(Blues|LW)=\frac{P(Blues\cap LW)}{P(LW)}=\frac{n(Blues\cap LW)}{n(LW)}=\frac5{147}
+$$
+
+That's it!  The project is complete!  Make sure you wrap it up saying what you learned!
