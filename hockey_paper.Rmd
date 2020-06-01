@@ -70,6 +70,17 @@ freq
 ```
 Cool!  We see about 34% of the leagues skaters are centers and there are sigificantly more Left Wingers than right.  I left my relative frequency in decimal form.  Feel free to change it to percentages in your project.
 
+I am going to try to make the frequency table again using some other functions in R.
+```{r}
+percent <- function(x, digits = 2, format = "f", ...) {      # Create user-defined function
+  paste0(formatC(x * 100, format = format, digits = digits, ...), "%")
+} 
+
+df %>%
+  group_by(Pos) %>%
+  summarize(Frequency = length(Pos),RelativeFrequency = percent(length(Pos)/900))
+```
+
 Next let's look at a two way table.
 ```{r}
 table(df$Pos,df$Tm)
