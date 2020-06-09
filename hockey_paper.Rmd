@@ -87,7 +87,7 @@ table(df$Pos,df$Tm)
 ```
 Not the most interesting table I have ever made but there are a few interesting aspects like Pittsburg Penguins and San Jose Sharks only had 1 left winger.  I have no idea why that might be the case, perhaps they are not "natural" left wingers but still play on that side and are therefore not counted.
 
-##Quanitative Variables:  Project Part 3
+## Quanitative Variables:  Project Part 3
 
 I am going to examine the plus/minus of the players, I think it is one of the most acurate statistics of a player's overall effectiveness on the ice.  Below is the 5 number summary, the mean and standard deviation.
 ```{r plus/minus}
