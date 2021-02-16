@@ -9,7 +9,7 @@ output: html_document
 library(tidyverse)
 library(boot)
 knitr::opts_chunk$set(echo = TRUE)
-df <- read.csv("https://raw.githubusercontent.com/nurfnick/Data_Sets_For_Stats/master/hockey.csv")
+df <- read.csv("https://raw.githubusercontent.com/nurfnick/Data_Sets_For_Stats/master/CuratedDataSets/hockey.csv")
 ```
 
 ## The 2018-2019 Hockey Season
@@ -174,10 +174,10 @@ Let's go ahead and create a bootstrap here for the Blues plus/minus
 samp_mean <- function(x, i) {
   mean(x[i])
 }
-boot(blues$PM, samp_mean, 10000)
+b1 <- boot(blues$PM, samp_mean, 10000)
 ```
 ```{r}
-plot(boot(blues$PM, samp_mean, 10000))
+plot(b1)
 ```
 
 
@@ -187,6 +187,14 @@ c(2.5-2*1.3,2.5+2*1.3)
 ```
 We note that the Blues confidence interval did not contain $-1$ so we are able to reject the null hypothesis, there for we have evidence to suggest that the Blues were better than the average team (at least in plus/minus).
 
+Let's repeat this using a built in function.
+```{r}
+boot.ci(b1,type = "norm")
+```
+Pretty similar!  I also prefer to use the percentile way.  Instead of using normality assumption, it counts the actual values computed by the bootstrap and uses 2.5% below and 2.5% above.
+```{r}
+boot.ci(b1,type = "perc")
+```
 ```{r}
 myprop<-function(x,i){
 sum(x[i]==TRUE)/length(x)
