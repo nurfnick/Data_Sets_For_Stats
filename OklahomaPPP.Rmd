@@ -82,7 +82,7 @@ For your paper you should carefully describe any variable you think you might us
 
 ![OK-04 Congressional District](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oklahoma_US_Congressional_District_4_%28since_2013%29.tif/lossless-page1-1920px-Oklahoma_US_Congressional_District_4_%28since_2013%29.tif.png)
 
-They often talk about congress 'bringing home the bacon', let's sperate out our district so we can analyze it later
+They often talk about congress 'bringing home the bacon', let's separate out our district so we can analyze it later
 
 ```{r}
 cd4 <- df[which(df$CD=='OK - 04'),]
