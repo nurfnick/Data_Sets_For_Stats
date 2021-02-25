@@ -67,11 +67,11 @@ sum(df$MinLoan)
 ```{r}
 sum(df$MaxLoan)
 ```
-closer to 6 billion dollars.  We don't know the exact amount, but we know it is inbetween those dollar ammounts!
+closer to 6 billion dollars.  We don't know the exact amount, but we know it is inbetween those dollar amounts!
 
 ### Data Description
 
-So now my data set meets the minimum requirements for the project.  Let's see if we can analize the varaibles. 
+So now my data set meets the minimum requirements for the project.  Let's see if we can analyze the varaibles. 
 ```{r}
 summary(df)
 ```
