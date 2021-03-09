@@ -431,7 +431,7 @@ H_a:\quad {N_{Bob Baffert}\neq{1\over{30}}}
 $$
 Our formula will be
 $$
-Z = {{\hat{p}-p}\over \sqrt{p(1-p)\over{n}}}
+Z = \frac{\hat{p}-p}{\sqrt{\frac{p(1-p)}{n}}}
 $$
 with Phat being the tested proportion, p being the hypothesized proportion, and n being the number of observations in the tested proportion.
 
