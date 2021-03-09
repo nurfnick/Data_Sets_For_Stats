@@ -437,11 +437,11 @@ with Phat being the tested proportion, p being the hypothesized proportion, and 
 
 We should also note that
 $$
-SE = \sqrt{p(1-p)\over{n}}
+SE = \sqrt{\frac{p(1-p)}{n}}
 $$
 so our formula is really
 $$
-Z = {{\hat{p}-p}\over{SE}}
+Z = \frac{\hat{p}-p}{SE}
 $$
 Which equals
 
