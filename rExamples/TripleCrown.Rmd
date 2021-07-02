@@ -18,7 +18,7 @@ df <- read.csv("derbydata.csv")
 ```
 
 # 2020 Horse Racing
-#### For Intro to Probability and Statistics by Dr. Nicholas Jacobs
+#### For Intro to Probability and Statistics by Dr. Nicholas Jacob
 
 The 2020 horse racing season was overshadowed by the recent pandemic, and as a result I didn't get to follow it as closely as I would have liked. I am taking this opportunity to use that to my advantage and look back at the season while also learning about statistics. My data comes from [www.bloodhorse.com](https://www.bloodhorse.com/horse-racing/triple-crown/road-to-the-kentucky-derby/2020) and I received it from Dr. Jacobs. It is available on my github account name [BrendenLatham](https://github.com/BrendenLatham/horse-stats). It will also be shown below.
 
