@@ -1,0 +1,533 @@
+---
+title: "2020 Road to The Kentucky Derby Horse Stats"
+author: "Brenden Latham"
+date: "1/16/2021"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(boot)
+library(scales)
+library(plyr)
+library(devtools)
+knitr::opts_chunk$set(echo = TRUE)
+df <- read.csv("derbydata.csv")
+```
+
+# 2020 Horse Racing
+#### For Intro to Probability and Statistics by Dr. Nicholas Jacobs
+
+The 2020 horse racing season was overshadowed by the recent pandemic, and as a result I didn't get to follow it as closely as I would have liked. I am taking this opportunity to use that to my advantage and look back at the season while also learning about statistics. My data comes from [www.bloodhorse.com](https://www.bloodhorse.com/horse-racing/triple-crown/road-to-the-kentucky-derby/2020) and I received it from Dr. Jacobs. It is available on my github account name [BrendenLatham](https://github.com/BrendenLatham/horse-stats). It will also be shown below.
+
+```{r}
+df
+```
+
+## Project Part 1
+### Data Overview
+My data is relatively clean, but for the sake of simplification I will not be focusing much on Non-Restricted Steaks Earnings or Owner except maybe to later calculate the earnings of each owner. I will also be working with the values of Career Earnings in a way that they need to be in double format. I will call this simplified format dfs
+
+```{r}
+dfs <- data.frame(df) %>%
+  select(Ranking,Horse,Points,Career.Earnings.,Trainer,Breeder)
+dfs$Career.Earnings. <- as.numeric(gsub('[$,]', '',df$Career.Earnings.))
+```
+
+This is what that looks like
+
+```{r}
+dfs
+```
+
+I might want to look at the Individual Trainers as well. We can see that some trainers trained more than one horse on our data frame. Let me give you a look at each trainer and the horses they trained.
+
+```{r}
+hpt <- aggregate(Horse~Trainer,dfs,toString)
+hpt
+```
+
+I find it interesting that Bob Baffert alone trained 4 of our 30 horses. This makes him responsible for roughly 13% of our horses. I wonder what the total earnings of his horses are. Lets make a table that shows this for all Trainers
+
+```{r}
+trainerval <- aggregate(Career.Earnings.~Trainer,dfs,sum)
+trainerval
+```
+
+and that adds to a total horse earning sum of
+
+```{r}
+totalhorseearnings <- sum(dfs$Career.Earnings.)
+totalhorseearnings
+```
+Split among our total horses
+
+```{r}
+horses <- dfs$Horse
+length(horses)
+```
+trained by a unique trainer count of
+
+```{r}
+trainers <- trainerval$Trainer
+length(trainers)
+```
+With Bob Baffert alone being responsible for 13% of our horses...
+
+```{r}
+baffertval <- trainerval[3,]
+100/totalhorseearnings*baffertval$Career.Earnings.
+```
+and about 22% of our total money made. Almost 3.5 Million dollars! That's a lot of cash! I would like to further look at this later in the project.
+
+I find it very interesting how one man trained 4 horses and was responsible for such a large percentage of the total winnings. You can probably infer by now which horses won the highest paying races.
+
+I think by now we have a solid grasp on our data and can see every variable's relation to the others and how they interact.
+
+### A bit more about our variables
+
+We have gone over the Horse, Trainer, and Career Earnings variables. We also should take a quick look into our discrete Ranking and Points Variables, along with a nominal variable, Breeder.
+
++Ranking is the horses pre-Kentucky Derby season rank based on points.
+
++Points are awarded to the first 4 finishers in each of the 35 races leading up to the Kentucky derby. The top 20      scoring horses earn a spot in the Derby.
+
++Breeder is the name of the farm/stable/company that bred the horse.
+
+Below is a visual summary of our variables.
+
+```{r}
+summary(dfs)
+```
+
+## Project Part 2
+### Categorical Variables
+
+Now It's time to look at some of my categorical variables. I will create a frequency table that allows us to look at all the trainers like we have Bob Baffert.
+
+First I'll look at the frequency for each.
+
+```{r}
+trainer_freq <- count(dfs, 'Trainer')
+trainer_freq
+```
+
+Now I'll do relative frequency.
+
+```{r}
+trainer_relfreq <- trainer_freq
+### freq needs to be a double
+trainer_relfreq$freq <- as.double(trainer_relfreq$freq)
+trainer_relfreq$freq <- trainer_relfreq$freq/length(df$Trainer)
+trainer_relfreq <- rename(trainer_relfreq, c("freq"="relative_freq"))
+trainer_relfreq
+```
+
+Lets combine these two tables
+
+```{r}
+trainer_freqs <- merge(trainer_freq, trainer_relfreq, by="Trainer")
+trainer_freqs
+```
+
+So we can see that only 4 Trainers had more than 1 horse in the top 30 pre-Kentucky derby horses
+I find it interesting that Bob Baffert trained about 3 more top 30 horses than the average trainer in our data
+
+Now lets look at the breeders in the same way.
+
+```{r}
+breeder_freq <- count(dfs, 'Breeder')
+breeder_freq
+```
+
+```{r}
+breeder_relfreq <- breeder_freq
+### freq needs to be a double
+breeder_relfreq$freq <- as.double(breeder_relfreq$freq)
+breeder_relfreq$freq <- breeder_relfreq$freq/length(df$Breeder)
+rename(breeder_relfreq, c("freq"="relative_freq"))
+```
+
+```{r}
+breeder_freqs <- merge(breeder_freq, breeder_relfreq, by="Breeder")
+breeder_freqs <- rename(breeder_freqs, c("freq.x"="freq", "freq.y"="relative_freq"))
+breeder_freqs
+```
+
+We see now that Stonestreet Thoroughbred Holdings LLC and WinStar Farm both bred 2 horses that made the top 30 pre-Kentucky derby while the average of our data is about 1.
+
+A traditional two-way table showing occurrence would look disgusting with this data set
+So instead I will do this...
+Lets pair up our Trainers and Breeders by the horse they had in common. I will show the Breeder on the left and the Trainers that trained their horses on either the right or under, depending on the size of the table. 
+This should give the same information.
+
+```{r}
+T_B <- aggregate(Trainer~Breeder,dfs,toString)
+T_B
+```
+
+I would incorporate owner into this analysis but unlike the trainer and breeder they don't have a huge impact on the horse's performance. They just own the horse.
+
+So far by our data I feel confident in saying that if we want to produce a horse that lands in the top 30 for the season we would have it bred by either Stonestreet Throroughbred Holdings or WinStar Farms and trained by Bob Baffert, though I have a feeling this would be different if we wanted to produce a Kentucky Derby winning horse. The horse "Uncle Chuck" was a product of one of these breeders and Baffert, though he didn't make the 20 horse cutoff for the Kentucky Derby. This data could have a lurking variable of total horses trained per trainer or bred per breeder.
+If Bob Baffert had Trained 4 times the amount of horses as our other trainers it would put his training on about the same level as the others. The same can be said about our breeders. As it stands right now, just looking at the data we have, I will say Bob Baffert seems to be our best trainer, with the possible best breeders showing in the order they appear in our original data frame.
+
+## Project Part 3
+### Quantitative Variables
+
+Now it's time for some fun with numbers!
+This is why I needed to convert my Career Earnings column to double format earlier in the project.
+
+First we will look at the Points category.
+Lets see the five number summary
+
+```{r}
+summary(dfs$Points)
+```
+
+Ouch! it looks like some poor horse only got 2 points. Our max is a whopping 372, putting our range at 370.
+
+Now for the standard deviation
+
+```{r}
+sd(dfs$Points)
+```
+
+Lets see if we can use this to get even more information.
+Lets get our range of 1 total standard deviation from our mean
+
+```{r}
+mean(dfs$Points)-sd(dfs$Points)
+mean(dfs$Points)+sd(dfs$Points)
+```
+Lets see how many horse's points are withing that range of our mean
+
+```{r}
+sd_range <- dfs$Points
+sd_range <- sd_range[!(sd_range>mean(dfs$Points)+sd(dfs$Points))]
+length(sd_range)/length(dfs$Points)
+```
+
+So about 86% of our horse's points are withing 1 standard deviation of our mean.
+Lets look at this a little further.
+We will look at what percent falls within 2 ad 3 standard deviations of our mean.
+
+
+```{r}
+sd_range2 <- dfs$Points
+sd2 <- sd(dfs$Points)*2
+sd_range2 <- sd_range2[!(sd_range2>mean(dfs$Points)+sd2)]
+length(sd_range2)/length(dfs$Points)
+```
+
+```{r}
+sd_range3 <- dfs$Points
+sd3 <- sd(dfs$Points)*3
+sd_range3 <- sd_range3[!(sd_range3>mean(dfs$Points)+sd3)]
+length(sd_range3)/length(dfs$Points)
+```
+Wow. Up until the last calculation it looked like our data would be somewhat normally distributed.
+We can guess by our last calculation that our histogram will be either somewhat normal with a slight stray from normalcy on the positive side, or skewed right (or positive) depending on how far our positive outliars are from 3 standard deviations from our mean.
+You could probably see that this would be the case just by looking at the original table, but it's fun to see the actual numbers.
+Lets see if we are right.
+
+```{r}
+hist(dfs$Points, breaks = 20)
+```
+
+Looks like a positive skew.
+
+Now lets see a representation of what our data looks like vs what it could look like perfectly normally distributed.
+
+```{r}
+{qqnorm(dfs$Points)
+qqline(dfs$Points)}
+```
+
+In this plot, our data is represented by the dots, with the solid line being drawn between the 1st and 3rd quartile. It is a solid comparison of our numbers and a truly normal set of numbers. The dots that stray from the line represent a stray away from normalcy (a stray away from a bell curve).
+
+I would think that our career earnings would follow this pattern as well considering the first place horse gets the most points per race as well as the most money, with both decreasing the worse they do in the race. Let's see if this is true.
+
+```{r}
+summary(dfs$Career.Earnings.)
+```
+
+And again we have a very wide range of $2,808,200 with our Min most likely sitting in a bottle of Elmer's glue by now.
+
+Standard deviation now
+
+```{r}
+sd(dfs$Career.Earnings.)
+```
+
+Our ranges of 1 standard deviation from the mean
+
+```{r}
+mean(dfs$Career.Earnings.)-sd(dfs$Career.Earnings.)
+mean(dfs$Career.Earnings.)+sd(dfs$Career.Earnings.)
+```
+
+Now the percentages of our horses withing 1, 2, and 3 standard deviations of our mean.
+```{r}
+sd_range_earnings <- dfs$Career.Earnings.
+sd_range_earnings <- sd_range_earnings[!(sd_range_earnings>mean(dfs$Career.Earnings.)+sd(dfs$Career.Earnings.))]
+length(sd_range_earnings)/length(dfs$Career.Earnings.)
+
+sd_range_earnings2 <- dfs$Career.Earnings.
+sde2 <- sd(dfs$Career.Earnings.)*2
+sd_range_earnings2 <- sd_range_earnings2[!(sd_range_earnings2>mean(dfs$Career.Earnings.)+sde2)]
+length(sd_range_earnings2)/length(dfs$Career.Earnings.)
+
+sd_range_earnings3 <- dfs$Career.Earnings.
+sde3 <- sd(dfs$Career.Earnings.)*3
+sd_range_earnings3 <- sd_range_earnings3[!(sd_range_earnings3>mean(dfs$Career.Earnings.)+sde3)]
+length(sd_range_earnings3)/length(dfs$Career.Earnings.)
+```
+
+This is looking pretty familiar so far.
+
+```{r}
+hist(dfs$Career.Earnings., breaks = 20)
+```
+
+```{r}
+{qqnorm(dfs$Career.Earnings.)
+qqline(dfs$Career.Earnings.)}
+```
+
+This set of numbers seems to have an even more normalized distribution withing the 50% between the 1st and 3rd quartile.
+We would have somewhat of a bell curve (maybe with a slight right skew) in our histograms if it wasn't for those 4 positive outliars.
+
+For our two way lets plot our Points and Career Earnings against each other.
+If we see a straight line it means they have the same distribution.
+
+```{r}
+qqplot(dfs$Points,dfs$Career.Earnings.)
+```
+
+Once again we would have a pretty graph if it wasn't for our outliars.
+
+Lets look at our data in another kind of plot. It will give us a visual of just how far out our outliars are.
+
+First the Points
+
+```{r}
+boxplot(dfs$Points, horizontal = TRUE, main = "Box Plot of Points")
+```
+
+Now the Career Earnings
+
+```{r}
+boxplot(dfs$Career.Earnings., horizontal = TRUE, main = "Box Plot of Career Earnings")
+```
+
+So it seems in our points we have only 2 far outliars, while in our Career earnings we have 4. 2 being far and 2 mid range. I suspect this is caused by the difference in payout of each race. First through fourth is assigned the same amount of points each race, but the monetary rewards vary.
+Despite this small difference there seems to be a correlation between points and career earnings.
+
+I want to quantify the correlation between these two variables. I should be able to use the Pearson correlation formula (Thank God for built in functions) because both variables are considered to be ratio.
+
+```{r}
+cor(dfs$Points,dfs$Career.Earnings., method = c("pearson"))
+```
+
+So in this formula an output of "1" represents a perfect positive linear correlation, "-1" a perfect negative linear correlation, and "0" represents no correlation at all. Our output tells us there is a pretty good positive correlation!
+Of course we already knew that but it's cool to put a number to it.
+
+I think by now we have a good understanding of our quantitative variables. We see that our two variables are not perfectly correlated because of the difference in race rewards, but they are still very highly correlated.
+
+## Project Part 4
+### Hypothesis Testing
+
+For my First hypothesis I would like to continue along a topic I mentioned earlier. I want to see how Bob Baffert ranks among the other trainers in the top 30 for the season. I will do a simple test to see if Bob Baffert is as good as the other trainers by comparing his mean to the overall mean of $524,281.
+
+$$
+H_0:\quad \mu_{Baffert Earnings}=524281\\
+H_a:\quad \mu_{Baffert Earnings}\neq524281
+$$
+
+For my second hypothesis I will compare the frequency of Bob baffert in our table to what you would normally expect for a trainer in the season's top 30. A normal expectation would be for each name to have a relative frequency of 1/30.
+
+$$
+H_0:\quad {N_{Bob Baffert}={1\over{30}}}\\
+H_a:\quad {N_{Bob Baffert}\neq{1\over{30}}}
+$$
+Let's see if Bob Baffert really is as great as we thing he is or if it's just that when you train more horses you increase the odds of having your name written by a winner.
+
+## Project Part 5
+### Bootstrapping
+
+Let's start with a bootstrap for our quantitative test.
+
+```{r}
+samp_mean <- function(x, y){
+  mean(x[y])
+}
+bob_val <- dfs %>% select(Trainer, Career.Earnings.) %>% filter(Trainer == "Bob Baffert") %>% select(Career.Earnings.)
+set.seed(123)
+boot(bob_val$Career.Earnings., samp_mean, R=1000)
+```
+
+```{r}
+plot(boot(bob_val$Career.Earnings., samp_mean, R=1000))
+```
+
+
+Let's look at our 95% confidence interval on our categorical hypothesis using the formula
+$$
+CI = \overline{x} \pm z *se
+$$
+where z is 1.96 as the critical value for a 95% confidence, and se is the standard error
+```{r}
+c(-1.96*564509.1,1.96*564509.1)
+```
+```{r}
+c(852800-1.96*564509.1,852800+1.96*564509.1)
+```
+
+So our 95% confidence interval is
+$$
+CI = 852,800\ \pm \ 1106438\\
+or\\
+-253637.8 \quad to \quad 1959237.8
+$$
+Our mean for the overall Career earnings is well contained in our confidence interval so we can not reject our null hypothesis.
+
+Now lets work through our categorical hypothesis.
+```{r}
+my_prop <- function(x, y) {
+  sum(x[y]==TRUE)/length(x)
+}
+set.seed(124)
+boot(dfs$Trainer=="Bob Baffert", my_prop, 1000)
+```
+```{r}
+plot(boot(dfs$Trainer=="Bob Baffert", my_prop, 1000))
+```
+
+
+```{r}
+c(-1.96*0.06042021,1.96*0.06042021)
+```
+```{r}
+c(0.1333333-1.96*0.06042021,0.1333333+1.96*0.06042021)
+```
+
+So our 95% confidence interval is
+$$
+CI = 0.1333333\ \pm \ 0.1184236\\
+or\\
+0.01490969 \quad to \quad 0.25175691
+$$
+and here we also fail to reject our null hypothesis. weird.
+
+## Project part 6
+### Categorical Hypothesis Test
+
+Now lets do a more traditional hypothesis test on our same categorical hypothesis.
+$$
+H_0:\quad {N_{Bob Baffert}={1\over{30}}}\\
+H_a:\quad {N_{Bob Baffert}\neq{1\over{30}}}
+$$
+Our formula will be
+$$
+Z = {{\hat{p}-p}\over \sqrt{p(1-p)\over{n}}}
+$$
+with Phat being the tested proportion, p being the hypothesized proportion, and n being the number of observations in the tested proportion.
+
+We should also note that
+$$
+SE = \sqrt{p(1-p)\over{n}}
+$$
+so our formula is really
+$$
+Z = {{\hat{p}-p}\over{SE}}
+$$
+Which equals
+
+```{r}
+my_z <- function(p, phat, n){
+  se = sqrt((p*(1-p))/n)
+  Z = (phat-p)/n
+  return(Z)
+}
+my_z(1/30, 4/30, 30)
+```
+So Z=0.003333333, which is way less than Z*=1.96. So we can still not reject our null hypothesis at the 95% confidence interval and say that Bob Baffert is in the top 30 a higher amount of times compared to the other trainers.
+
+We get about the same conclusion with the traditional hypothesis test as we did in our bootstrap.
+
+
+## Project Part 7
+### Quantitative Hypothesis Test
+
+Let's now do the same kind of thing on our quantitative hypothesis.
+$$
+H_0:\quad \mu_{Baffert Earnings}=524281\\
+H_a:\quad \mu_{Baffert Earnings}\neq524281
+$$
+
+First let's get our standard error with
+$$
+SE = {s\over \sqrt{n}}
+$$
+with s being standard deviation and n being number of observations.
+So let's do that.
+```{r}
+sd(bob_val$Career.Earnings.)/sqrt(length(bob_val$Career.Earnings.))
+```
+
+We will use this to build a 95% confidence interval which will be the formula
+$$
+\overline{x} \pm t\ *\ se
+$$
+So lets do that.
+```{r}
+c(-1.96*675038,1.96*675038)
+```
+
+```{r}
+c(mean(bob_val$Career.Earnings.)-1.96*675038, mean(bob_val$Career.Earnings.)+1.96*675038)
+```
+
+so our interval is 
+$$
+852800 \pm 1323074\\
+or\\
+-470274.5 \quad to \quad  2175874.5
+$$
+
+Once again our mean for our overall career earnings is well contained.
+Lets check the P value
+```{r}
+t.test(bob_val$Career.Earnings., mu=524280.9)
+```
+
+My P value is 0.6598 compared to a=.05 for 95%.
+Our P is significantly greater than a so we can not reject our null hypothesis.
+This holds the same outcome as the bootstrap.
+
+## Project Part 8
+### Conditional Probabilities
+
+Lets bring our simplified 2-way table back
+
+```{r}
+T_B
+```
+
+Since we have been focusing on Bob Baffert so much through this whole thing, let's continue with that.
+Lets look at the probability that our horse was bred by one of our previously talked about breeders, Stonestreet Thouroughbred Holdings, Given that It was trained by Bob Baffert.
+
+$$
+P(STH|Baffert)\ =\ {P(STH \cap Baffert)\over{P(Baffert)}}\ =\ {0.03333333\over{0.13333333}}\ =\ 25\ percent
+$$
+
+As we can see my data is dependant. In horse racing the trainers are typically assigned to the horse before anyone knows if the horse will actually be a champion contender. It would seem that the best breeders would typically pair with the best Trainers, but as we saw earlier in both the bootstrap and traditional hypothesis tests, we can't technically say that any one trainer is better than the others despite what we might think by eyeballing the charts. Even though we couldn't make definitively say that Bob Baffert is better trainer than the others, it seems that when you grade the trainers on how many horses tey got to the top 30, the best trainers tend to be with the best breeders graded by the same standards.
+I will do one more little probability to finish off this project. I will now show the probability of the Trainer being Bob Baffert given that the Breeder was Stonestreet.
+
+$$
+P(Baffert|STH)\ =\ {P(Baffert \cap STH)\over{P(STH)}}\ =\ {0.03333333\over{0.06666667}}\ =\ 50\ percent
+$$
+
+That is a very neat little probability. I still think we have seen by now that despite what you think just by looking at the charts, there really is no way to pick a winning horse just by comparing trainers and breeders. If we just look at the charts, you might think that Bob Baffert is a better trainer, with Stonestreet being a favorable breeder. However if we look at where they intersect, their horse was 22 out of 30 in the top 30. It was just 4 spots away from not even making the Kentucky Derby. There are so many variables in horse racing that we may never be able to consistently predict outcomes to any degree of accuracy. From the luck of the genetics of the breeder, to the pairing with the trainer, and even to the condition of the dirt on the track on any given race day, every single variable has an effect on the horses performance. The whole outcome of a race can even be determined by a horses mood on race day. Horse racing has been researched by many people in the hopes of breaking the code and developing an algorithm that can consistently predict the winner. The only thing these experiments have proven is that the house always wins, because, as far as we can tell right now, it really is one of the closest to random things we will ever see. Will this stop me from gambling? no. Will I still lose money this year on horse racing? yes. Will I, however, be more conscious that I really am betting against the odds no matter how good a horse looks on the cheat sheet? Honestly still probably not. I will still be staring at the cheat sheets before every race I attend hoping to somehow discover the secret formula that thousands of people before me just happened to miss. Maybe I can make my money back in blackjack though, right?
