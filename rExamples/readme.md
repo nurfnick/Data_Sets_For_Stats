@@ -1,0 +1,1 @@
+I will store r examples and any files that support them here.  You can also contribute your file here at the end of the semester.  If you'd like to see the html pages in your web browser go to https://nurfnick.github.io/Data_Sets_For_Stats/rExamples/hockey_paper.html if you change hockey_paper.html to a different html file, you will be able to view it too.
