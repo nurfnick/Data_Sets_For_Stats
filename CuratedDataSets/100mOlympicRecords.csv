@@ -1,0 +1,77 @@
+Time,Athlete,Nation,Games,Round,Date,Gender
+12.2,Francis Lane,United States (USA),1896,Heat 1,1896-04-06,Men
+12.2,Thomas Curtis,United States (USA),1896,Heat 2,1896-04-06,Men
+11.8,Tom Burke,United States (USA),1896,Heat 3,1896-04-06,Men
+11.4,Arthur Duffey,United States (USA),1900,Heat 1,6/14/1900,Men
+11.4,Walter Tewksbury,United States (USA),1900,Heat 2,6/14/1900,Men
+10.8,Frank Jarvis,United States (USA),1900,Heat 3,6/14/1900,Men
+10.8,Walter Tewksbury,United States (USA),1900,Semi-final 2,6/14/1900,Men
+10.8,James Rector,United States (USA),1908,Heat 15,7/20/1908,Men
+10.8,Reggie Walker,South Africa (RSA),1908,Semi-final 1,7/20/1908,Men
+10.8,James Rector,United States (USA),1908,Semi-final 3,7/20/1908,Men
+10.8,Reggie Walker,South Africa (RSA),1908,Final,7/20/1908,Men
+10.8,David Jacobs,Great Britain (GBR),1912,Heat 10,7/6/1912,Men
+10.6,Donald Lippincott,United States (USA),1912,Heat 16,7/6/1912,Men
+10.6,Harold Abrahams,Great Britain (GBR),1924,Quarter-final 4,7/6/1924,Men
+10.6,Harold Abrahams,Great Britain (GBR),1924,Semi-final 2,7/7/1924,Men
+10.6,Harold Abrahams,Great Britain (GBR),1924,Final,7/7/1924,Men
+10.6,Percy Williams,Canada (CAN),1928,Quarter-final 4,7/29/1928,Men
+10.6,Robert McAllister,United States (USA),1928,Semi-final 1,7/30/1928,Men
+10.6,Jack London,United States (USA),1928,Semi-final 2,7/30/1928,Men
+10.6,Arthur Jonath,Germany (GER),1932,Heat 3,7/31/1932,Men
+10.4,Eddie Tolan,United States (USA),1932,Quarter-final 1,7/31/1932,Men
+10.3,Eddie Tolan,United States (USA),1932,Final,8/1/1932,Men
+10.3,Jesse Owens,United States (USA),1936,Heat 1,8/2/1936,Men
+10.3,Harrison Dillard,United States (USA),1948,Final,7/31/1948,Men
+10.3,Bobby Joe Morrow,United States (USA),1956,Quarter-final 1,11/23/1956,Men
+10.3,Ira Murchison,United States (USA),1956,Quarter-final 2,11/23/1956,Men
+10.3,Bobby Joe Morrow,United States (USA),1956,Semi-final 2,11/24/1956,Men
+10.2,Armin Hary,West Germany (FRG),1960,Quarter-final 2,8/31/1960,Men
+10.2,Armin Hary,West Germany (FRG),1960,Final,8/31/1960,Men
+10,Bob Hayes,United States (USA),1964,Final,10/15/1964,Men
+10,Hermes Ramírez,Cuba (CUB),1968,Quarter-final 2,10/13/1968,Men
+10,Charlie Greene,United States (USA),1968,Quarter-final 4,10/13/1968,Men
+10,Jim Hines,United States (USA),1968,Semi-final 1,10/14/1968,Men
+9.9,Jim Hines,United States (USA),1968,Final,10/14/1968,Men
+9.923,Carl Lewis,United States (USA),1988,Final,9/24/1988,Men
+9.84,Donovan Bailey,Canada (CAN),1996,Final,7/27/1996,Men
+9.69,Usain Bolt,Jamaica (JAM),2008,Final,8/16/2008,Men
+9.63,Usain Bolt,Jamaica (JAM),2012,Final,8/5/2012,Men
+13,Anni Holdmann,Germany (GER),1928,Heat 1,7/30/1928,Women
+12.8,Erna Steinberg,Germany (GER),1928,Heat 2,7/30/1928,Women
+12.8,Kinue Hitomi,Japan (JPN),1928,Heat 3,7/30/1928,Women
+12.8,Leni Junker,Germany (GER),1928,Heat 4,7/30/1928,Women
+12.8,Leni Schmidt,Germany (GER),1928,Heat 6,7/30/1928,Women
+12.6,Fanny Rosenfeld,Canada (CAN),1928,Heat 7,7/30/1928,Women
+12.6,Ethel Smith,Canada (CAN),1928,Heat 9,7/30/1928,Women
+12.4,Fanny Rosenfeld,Canada (CAN),1928,Semi-final 1,7/30/1928,Women
+12.4,Betty Robinson,United States (USA),1928,Semi-final 2,7/30/1928,Women
+12.2,Betty Robinson,United States (USA),1928,Final,7/31/1928,Women
+12.2,Marie Dollinger,Germany (GER),1932,Heat 1,8/1/1932,Women
+11.9,Stanisława Walasiewicz,Poland (POL),1932,Heat 2,8/1/1932,Women
+11.9,Stanisława Walasiewicz,Poland (POL),1932,Semi-final 2,8/1/1932,Women
+11.9,Stanisława Walasiewicz,Poland (POL),1932,Final,8/2/1932,Women
+11.9,Fanny Blankers-Koen,Netherlands (NED),1948,Final,8/2/1948,Women
+11.9,Catherine Hardy,United States (USA),1952,Heat 7,7/21/1952,Women
+11.6,Marjorie Jackson,Australia (AUS),1952,Heat 8,7/21/1952,Women
+11.6,Marjorie Jackson,Australia (AUS),1952,Quarter-final 1,7/21/1952,Women
+11.5,Marjorie Jackson,Australia (AUS),1952,Semi-final 1,7/22/1952,Women
+11.5,Marjorie Jackson,Australia (AUS),1952,Final,7/22/1952,Women
+11.5,Marlene Mathews,Australia (AUS),1956,Heat 2,11/24/1956,Women
+11.4,Betty Cuthbert,Australia (AUS),1956,Heat 3,11/24/1956,Women
+11.3,Wilma Rudolph,United States (USA),1960,Semi-final 1,9/2/1960,Women
+11.2,Wyomia Tyus,United States (USA),1964,Quarter-final 1,10/15/1964,Women
+11.2,Wyomia Tyus,United States (USA),1968,Heat 1,10/14/1968,Women
+11.2,Margaret Bailes,United States (USA),1968,Heat 2,10/14/1968,Women
+11.2,Barbara Ferrell,United States (USA),1968,Heat 6,10/14/1968,Women
+11.1,Barbara Ferrell,United States (USA),1968,Quarter-final 1,10/14/1968,Women
+11.1,Irena Szewińska-Kirszenstein,Poland (POL),1968,Quarter-final 4,10/14/1968,Women
+11,Wyomia Tyus,United States (USA),1968,Final,10/15/1968,Women
+11.07,Renate Stecher,East Germany (GDR),1972,Quarter-final 1,9/1/1972,Women
+11.05,Annegret Richter,West Germany (FRG),1976,Quarter-final 1,7/24/1976,Women
+11.01,Annegret Richter,West Germany (FRG),1976,Semi-final 1,7/25/1976,Women
+10.97,Evelyn Ashford,United States (USA),1984,Final,8/5/1984,Women
+10.88,Florence Griffith Joyner,United States (USA),1988,Heat 7,9/24/1988,Women
+10.88,Evelyn Ashford,United States (USA),1988,Quarter-final 2,9/24/1988,Women
+10.62,Florence Griffith Joyner,United States (USA),1988,Quarter-final 3,9/24/1988,Women
+10.61,Elaine Thompson-Herah,Jamaica (JAM),2021,Final,7/31/2021,Women
