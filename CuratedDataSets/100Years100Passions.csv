@@ -1,0 +1,101 @@
+#,Film,Director,Year,Actress,Actor
+1,Casablanca,Michael Curtiz,1942,Ingrid Bergman,Humphrey Bogart
+2,Gone with the Wind,Victor Fleming,1939,Vivien Leigh,Clark Gable
+3,West Side Story,Robert Wise Jerome Robbins,1961,Natalie Wood,Richard Beymer
+4,Roman Holiday,William Wyler,1953,Audrey Hepburn,Gregory Peck
+5,An Affair to Remember,Leo McCarey,1957,Deborah Kerr,Cary Grant
+6,The Way We Were,Sydney Pollack,1973,Barbra Streisand,Robert Redford
+7,Doctor Zhivago,David Lean,1965,Julie Christie Geraldine Chaplin,Omar Sharif
+8,It's a Wonderful Life,Frank Capra,1946,Donna Reed,James Stewart
+9,Love Story,Arthur Hiller,1970,Ali MacGraw,Ryan O'Neal
+10,City Lights,Charlie Chaplin,1931,Virginia Cherrill,Charlie Chaplin
+11,Annie Hall,Woody Allen,1977,Diane Keaton,Woody Allen
+12,My Fair Lady,George Cukor,1964,Audrey Hepburn,Rex Harrison Jeremy Brett
+13,Out of Africa,Sydney Pollack,1985,Meryl Streep,Robert Redford
+14,The African Queen,John Huston,1951,Katharine Hepburn,Humphrey Bogart
+15,Wuthering Heights,William Wyler,1939,Merle Oberon,Laurence Olivier
+16,Singin' in the Rain,Gene Kelly Stanley Donen,1952,Debbie Reynolds,Gene Kelly
+17,Moonstruck,Norman Jewison,1987,Cher,Nicolas Cage
+18,Vertigo,Alfred Hitchcock,1958,Kim Novak,James Stewart
+19,Ghost,Jerry Zucker,1990,Demi Moore,Patrick Swayze
+20,From Here to Eternity,Fred Zinnemann,1953,Deborah Kerr Donna Reed,Burt Lancaster Montgomery Clift
+21,Pretty Woman,Garry Marshall,1990,Julia Roberts,Richard Gere
+22,On Golden Pond,Mark Rydell,1981,Katharine Hepburn,Henry Fonda
+23,"Now, Voyager",Irving Rapper,1942,Bette Davis,Paul Henreid
+24,King Kong,Merian C. Cooper Ernest B. Schoedsack,1933,Fay Wray,Kong Bruce Cabot
+25,When Harry Met Sally...,Rob Reiner,1989,Meg Ryan,Billy Crystal
+26,The Lady Eve,Preston Sturges,1941,Barbara Stanwyck,Henry Fonda
+27,The Sound of Music,Robert Wise,1965,Julie Andrews,Christopher Plummer
+28,The Shop Around the Corner,Ernst Lubitsch,1940,Margaret Sullavan,James Stewart
+29,An Officer and a Gentleman,Taylor Hackford,1982,Debra Winger,Richard Gere
+30,Swing Time,George Stevens,1936,Ginger Rogers,Fred Astaire
+31,The King and I,Walter Lang,1956,Deborah Kerr,Yul Brynner
+32,Dark Victory,Edmund Goulding,1939,Bette Davis,Humphrey Bogart
+33,Camille,George Cukor,1936,Greta Garbo,Robert Taylor
+34,Beauty and the Beast,Gary Trousdale Kirk Wise,1991,Paige O'Hara,Robby Benson
+35,Gigi,Vincente Minnelli,1958,Leslie Caron,Louis Jourdan
+36,Random Harvest,Mervyn LeRoy,1942,Greer Garson,Ronald Colman
+37,Titanic,James Cameron,1997,Kate Winslet,Leonardo DiCaprio
+38,It Happened One Night,Frank Capra,1934,Claudette Colbert,Clark Gable
+39,An American in Paris,Vincente Minnelli,1951,Leslie Caron,Gene Kelly
+40,Ninotchka,Ernst Lubitsch,1939,Greta Garbo,Melvyn Douglas
+41,Funny Girl,William Wyler,1968,Barbra Streisand,Omar Sharif
+42,Anna Karenina,Clarence Brown,1935,Greta Garbo,Fredric March
+43,A Star Is Born,George Cukor,1954,Judy Garland,James Mason
+44,The Philadelphia Story,George Cukor,1940,Katharine Hepburn,Cary Grant James Stewart
+45,Sleepless in Seattle,Nora Ephron,1993,Meg Ryan,Tom Hanks
+46,To Catch a Thief,Alfred Hitchcock,1955,Grace Kelly,Cary Grant
+47,Splendor in the Grass,Elia Kazan,1961,Natalie Wood,Warren Beatty
+48,Last Tango in Paris,Bernardo Bertolucci,1973,Maria Schneider,Marlon Brando
+49,The Postman Always Rings Twice,Tay Garnett,1946,Lana Turner,John Garfield
+50,Shakespeare in Love,John Madden,1998,Gwyneth Paltrow,Joseph Fiennes
+51,Bringing Up Baby,Howard Hawks,1938,Katharine Hepburn,Cary Grant
+52,The Graduate,Mike Nichols,1967,Katharine Ross,Dustin Hoffman
+53,A Place in the Sun,George Stevens,1951,Elizabeth Taylor,Montgomery Clift
+54,Sabrina,Billy Wilder,1954,Audrey Hepburn,Humphrey Bogart
+55,Reds,Warren Beatty,1981,Diane Keaton,Warren Beatty
+56,The English Patient,Anthony Minghella,1996,Juliette Binoche Kristin Scott Thomas,Naveen Andrews Ralph Fiennes
+57,Two for the Road,Stanley Donen,1967,Audrey Hepburn,Albert Finney
+58,Guess Who's Coming to Dinner,Stanley Kramer,1967,Katharine Hepburn Katharine Houghton,Spencer Tracy Sidney Poitier
+59,Picnic,Joshua Logan,1955,Kim Novak,William Holden
+60,To Have and Have Not,Howard Hawks,1944,Lauren Bacall,Humphrey Bogart
+61,Breakfast at Tiffany's,Blake Edwards,1961,Audrey Hepburn,George Peppard
+62,The Apartment,Billy Wilder,1960,Shirley MacLaine,Jack Lemmon
+63,Sunrise,F. W. Murnau,1927,Janet Gaynor Margaret Livingston,George O'Brien
+64,Marty,Delbert Mann,1955,Betsy Blair,Ernest Borgnine
+65,Bonnie and Clyde,Arthur Penn,1967,Faye Dunaway,Warren Beatty
+66,Manhattan,Woody Allen,1979,Diane Keaton,Woody Allen
+67,A Streetcar Named Desire,Elia Kazan,1951,Vivien Leigh,Marlon Brando
+68,"What's Up, Doc?",Peter Bogdanovich,1972,Barbra Streisand,Ryan O'Neal
+69,Harold and Maude,Hal Ashby,1971,Ruth Gordon,Bud Cort
+70,Sense and Sensibility,Ang Lee,1995,Emma Thompson Kate Winslet,Hugh Grant Alan Rickman
+71,Way Down East,D. W. Griffith,1920,Lillian Gish,Richard Barthelmess
+72,Roxanne,Fred Schepisi,1987,Daryl Hannah,Steve Martin
+73,The Ghost and Mrs. Muir,Joseph L. Mankiewicz,1947,Gene Tierney,Rex Harrison
+74,Woman of the Year,George Stevens,1942,Katharine Hepburn,Spencer Tracy
+75,The American President,Rob Reiner,1995,Annette Bening,Michael Douglas
+76,The Quiet Man,John Ford,1952,Maureen O'Hara,John Wayne
+77,The Awful Truth,Leo McCarey,1937,Irene Dunne,Cary Grant
+78,Coming Home,Hal Ashby,1978,Jane Fonda,Jon Voight
+79,Jezebel,William Wyler,1938,Bette Davis,Henry Fonda
+80,The Sheik,George Melford,1921,Agnes Ayres,Rudolph Valentino
+81,The Goodbye Girl,Herbert Ross,1977,Marsha Mason,Richard Dreyfuss
+82,Witness,Peter Weir,1985,Kelly McGillis,Harrison Ford
+83,Morocco,Josef von Sternberg,1930,Marlene Dietrich,Gary Cooper
+84,Double Indemnity,Billy Wilder,1944,Barbara Stanwyck,Fred MacMurray
+85,Love Is a Many-Splendored Thing,Henry King,1955,Jennifer Jones,William Holden
+86,Notorious,Alfred Hitchcock,1946,Ingrid Bergman,Cary Grant
+87,The Unbearable Lightness of Being,Philip Kaufman,1988,Juliette Binoche,Daniel Day-Lewis
+88,The Princess Bride,Rob Reiner,1987,Robin Wright,Cary Elwes
+89,Who's Afraid of Virginia Woolf?,Mike Nichols,1966,Elizabeth Taylor Sandy Dennis,Richard Burton George Segal
+90,The Bridges of Madison County,Clint Eastwood,1995,Meryl Streep,Clint Eastwood
+91,Working Girl,Mike Nichols,1988,Melanie Griffith,Harrison Ford
+92,Porgy and Bess,Otto Preminger,1959,Dorothy Dandridge,Sidney Poitier
+93,Dirty Dancing,Emile Ardolino,1987,Jennifer Grey,Patrick Swayze
+94,Body Heat,Lawrence Kasdan,1981,Kathleen Turner,William Hurt
+95,Lady and the Tramp,Wilfred Jackson Hamilton Luske Clyde Geronimi,1955,Barbara Luddy,Larry Roberts
+96,Barefoot in the Park,Gene Saks,1967,Jane Fonda,Robert Redford
+97,Grease,Randal Kleiser,1978,Olivia Newton-John,John Travolta
+98,The Hunchback of Notre Dame,William Dieterle,1939,Maureen O'Hara,Charles Laughton
+99,Pillow Talk,Michael Gordon,1959,Doris Day,Rock Hudson
+100,Jerry Maguire,Cameron Crowe,1996,Renée Zellweger,Tom Cruise
