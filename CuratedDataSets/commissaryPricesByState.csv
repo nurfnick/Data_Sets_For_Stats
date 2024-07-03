@@ -1,0 +1,631 @@
+state,product_category,product_type,cheapest_option,cheapest_price,common_option,common_option_low,common_option_high
+Alaska,Food,Ramen,Ramen Noodles Beef,$0.55 ,Ramen Noodles Beef,0.55,0.7
+Alaska,Food,Beans,Velveeta Spicy Cheesy Refried Beans & Rice,$1.95 ,Velveeta Spicy Cheesy Refried Beans & Rice,1.95,2.05
+Alaska,Food,Peanut Butter,Peanut Butter Packet,$0.50 ,KK Creamy Peanut Butter 18 oz.,5,5.15
+Alaska,Food,Mac and Cheese,Kraft Easy Mac single,$2.19 ,Kraft Easy Mac single,2.19,2.19
+Alaska,Personal Care/Hygiene,Reading Glasses,Reading Glasses +1.25 (1),$6.15 ,Reading Glasses +1.25 (1),6.15,6.4
+Alaska,Personal Care/Hygiene,Toothbrush,Anti-shank toothbrush,$0.55 ,Colgate toothbrush,1.2,1.25
+Alaska,Personal Care/Hygiene,Toothpaste,"AIM toothpaste, 6 ounces",$1.39 ,Colgate Clear Toothpaste,3.35,3.8
+Alaska,Personal Care/Hygiene,Deodorant,Power-up Deodorant for Women,$2.90 ,Secret Solid Deodorant 1.7oz,3.5,3.95
+Alaska,Personal Care/Hygiene,Soap,Heritage Hypoallergenic Soap,$0.90 ,Dove Soap,1.7,1.95
+Alaska,Personal Care/Hygiene,Lotion,Suave Lotion,$4.10 ,Eucerin Lotion 8 oz.,9.45,10.45
+Alaska,Personal Care/Hygiene,Hair Conditioner,Generic Conditioner,$2.40 ,Pantene Conditioner 10.5 oz,5.1,5.5
+Alaska,Personal Care/Hygiene,Electric Fan,"8"" inch table fan",$28.55 ,"8"" inch table fan",28.55,28.55
+Arizona,Food,Ramen,Beef Ramen 3 oz Maruchan,$0.66 ,Beef Ramen 3 oz Maruchan,0.66,0.66
+Arizona,Food,Beans,"Sevilla Beans and Rice, chili flavor 4.4 oz Olivette Products",$0.94 ,Spicy Velveeta Refried Beans & Rice 4 oz Olivette Products,1.15,1.15
+Arizona,Food,Peanut Butter,Squeezum Peanut Butter Packets 2 oz Diamond Crystal,$0.35 ,Clear Choice Creamy Peanut Butter 18 oz Golden Boy Foods,1.69,1.69
+Arizona,Food,Mac and Cheese,Velveeta Mac & Cheese Reg 3 oz Olivette Products,$1.25 ,Velveeta Mac & Cheese Reg 3 oz Olivette Products,1.25,1.25
+Arizona,Personal Care/Hygiene,Reading Glasses,Reading Glasses +1.25 1 pr Sharkeyes,$1.20 ,Reading Glasses +1.25 1 pr Sharkeyes,1.2,1.2
+Arizona,Personal Care/Hygiene,Toothbrush,Antishank Toothbrush 1 ea New World Imports,$0.06 ,"Toothbrush, Soft IW 1 ea Colgate",0.48,0.48
+Arizona,Personal Care/Hygiene,Toothpaste,Freshmint Clear Gel 4.6 oz New World Imports,$1.00 ,Colgate Clear Gel Cavity Protection 4.2 oz Colgate Palmolive Co.,2.4,2.4
+Arizona,Personal Care/Hygiene,Deodorant,Clear Push-Up Deodorant 1.6 oz New World Imports,$0.40 ,Mennen Deodorant 1.8 oz Colgate,1.71,1.71
+Arizona,Personal Care/Hygiene,Soap,Freshscent Soap 3 oz New World Imports,$0.32 ,Dove Beauty Bar Soap Moisturizing 4 oz,3.5,3.5
+Arizona,Personal Care/Hygiene,Lotion,"Infuzed Body Lotion, Cocoa Shea 15oz",$1.78 ,"Infuzed Daily Body Lotion, Coconut Lime 15oz",2.35,2.35
+Arizona,Personal Care/Hygiene,Hair Conditioner,Balsam & Protein Conditioner 4 oz,$0.33 ,VO5 Extra Body Conditioner 12.5 oz,1.08,1.08
+Arizona,Personal Care/Hygiene,Relaxer,Olive Oil Relaxer Kit 1 ea Namaste Laboratories,$4.24 ,Olive Oil Relaxer Kit 1 ea Namaste Laboratories,4.24,4.24
+Arizona,Personal Care/Hygiene,Electric Fan,"8"" Clear Fan 1 ea Massey Co. Ltd.",$23.06 ,"8"" Clear Fan 1 ea Massey Co. Ltd.",23.06,23.06
+Arkansas,Religious Item,Hijab,HEADSCARF - AL MIRA,$4.89 ,HEADSCARF - AL MIRA,4.89,4.89
+Arkansas,Food,Ramen,Ramen Beef BAG,$0.29 ,Ramen Beef BAG,0.29,0.57
+Arkansas,Food,Beans,Refried Beans w/cheese-Velveeta,$0.69 ,SEVILLA/CHILI REFRIED BEANS & RICE,1.09,1.69
+Arkansas,Food,Peanut Butter,Peanut Butter Squeeze Packet,$0.48 ,Peanut Butter Squeeze Packet,0.48,0.98
+Arkansas,Food,Mac and Cheese,Mac & Cheese-Velveeta,$1.14 ,Mac & Cheese-Velveeta,1.14,1.62
+Arkansas,Personal Care/Hygiene,Reading Glasses,Reading Glasses 2.50 Strength,$1.89 ,Sharkeyes Reading Glasses Lense 2.0,6,6
+Arkansas,Personal Care/Hygiene,Toothbrush,Toothbrush short,$0.04 ,TOOTHBRUSH 4 INCH,0.07,0.35
+Arkansas,Personal Care/Hygiene,Toothpaste,Toothpaste red gel,$0.60 ,Colgate Gel Toothpaste,2.34,3.28
+Arkansas,Personal Care/Hygiene,Deodorant,Personal Care Ultra Dry Deo,$1.06 ,Old Spice Pure Sport Deo. 3 oz,3.74,5.64
+Arkansas,Personal Care/Hygiene,Soap,Irish Spring Icy Blast Bar Soap 3.75oz,$0.51 ,Dove Moisturizing Bar,1.78,4.19
+Arkansas,Personal Care/Hygiene,Lotion,Cocoa Butter Lotion Fresh Scent 4oz,$0.62 ,LOTION BRECK,1.7,2.08
+Arkansas,Personal Care/Hygiene,Hair Conditioner,HAIR CONDITIONER 4.oz,$0.68 ,Conditioner Breck,1.57,2.46
+Arkansas,Personal Care/Hygiene,Relaxer,Dark&Lovely Relaxer System,$10.09 ,Dark&Lovely Relaxer System,10.09,10.09
+California,Food,Ramen,"Ramen, Beef",$0.35 ,"Ramen, Beef",0.35,0.4
+California,Food,Beans,CHILI WITH BEANS REGULAR,$1.65 ,Refried Beans Spicy 12oz,2.45,2.45
+California,Food,Peanut Butter,PEANUT BUTTER 18 OZ,$3.15 ,PEANUT BUTTER 18 OZ,3.15,3.5
+California,Food,Mac and Cheese,MAC & CHEESE,$0.75 ,MAC & CHEESE.,0.75,1
+California,Personal Care/Hygiene,Toothbrush,"TOOTHBRUSH, 4″",$0.10 ,"TOOTHBRUSH, MEDIUM",0.45,0.95
+California,Personal Care/Hygiene,Toothpaste,COOL WAVE,$1.15 ,COLGATE-ULTRABRITE 6oz.,1.5,1.9
+California,Personal Care/Hygiene,Deodorant,Dial Roll-On Deo.,$1.70 ,SPEED STICK ULTRA SPORT DEODERANT 3oz.,3.4,3.4
+California,Personal Care/Hygiene,Soap,WHITE RAIN CLASSIC GOLD 4oz.,$0.70 ,DOVE 2.6oz,1.4,1.4
+California,Personal Care/Hygiene,Lotion,"LOTION, VITAMIN E 18oz",$1.50 ,JERGENS SKIN LOTION,5.55,5.55
+California,Personal Care/Hygiene,Hair Conditioner,"VO5 Extra Body Conditioner, 12.5oz",$1.35 ,"VO5 Extra Body Conditioner, 12.5oz",1.35,1.65
+California,Personal Care/Hygiene,Relaxer,D&L SUPER RELAXER,$10.15 ,D&L SUPER RELAXER,10.15,10.15
+California,Personal Care/Hygiene,Electric Fan,FAN 8' CLEAR-LIMIT ONE,$24.30 ,FAN 8' CLEAR-LIMIT ONE,24.3,24.3
+Colorado,Religious Item,Quran,THE QUR'AN,$3.90 ,THE QUR'AN,3.9,3.9
+Colorado,Religious Item,Bible,POCKET KJ BIBLE,$8.43 ,POCKET KJ BIBLE,8.43,8.43
+Colorado,Religious Item,Kufi Cap,"KUFI, WHITE",$8.89 ,"KUFI, WHITE",8.89,8.89
+Colorado,Religious Item,Prayer Rug,PRAYER RUG,$18.66 ,PRAYER RUG,18.66,18.66
+Colorado,Religious Item,Yarmulke,"YARMULKE, WHITE",$0.93 ,"YARMULKE, WHITE",0.93,0.93
+Colorado,Religious Item,Crucifix,CRUCIFIX,$29.05 ,CRUCIFIX,29.05,29.05
+Colorado,Religious Item,Star of David,STAR OF DAVID,$29.05 ,STAR OF DAVID,29.05,29.05
+Colorado,Food,Ramen,SOUP BEEF RAMEN,$0.41 ,SOUP BEEF RAMEN,0.41,0.41
+Colorado,Food,Beans,REFRIED BEANS BAG (bag),$1.18 ,REFRIED BEANS BAG (bag),1.18,1.18
+Colorado,Food,Mac and Cheese,MACARONI & CHEESE (bag),$0.73 ,MACARONI & CHEESE (bag),0.73,0.73
+Colorado,Personal Care/Hygiene,Reading Glasses,"READING GLASSES, 1.25",$1.70 ,"READING GLASSES, 1.25",1.7,1.7
+Colorado,Personal Care/Hygiene,Toothbrush,"TOOTHBRUSH, SECURITY",$0.15 ,LOOPS TOOTHBRUSH,2.03,2.03
+Colorado,Personal Care/Hygiene,Toothpaste,CLEAR TOOTHPASTE / tube,$1.06 ,COLGATE SENSITIVE TP / tube,6.13,6.13
+Colorado,Personal Care/Hygiene,Deodorant,ROLL ON ANTIPERSPIRANT,$1.11 ,Dial deodorant,1.59,1.59
+Colorado,Personal Care/Hygiene,Soap,DEODORANT SOAP,$0.49 ,DOVE SOAP (bar),2.48,2.48
+Colorado,Personal Care/Hygiene,Lotion,SKIN LOTION 4 OZ,$0.57 ,TOTAL MOISTURE LOTION,4.74,4.74
+Colorado,Personal Care/Hygiene,Hair Conditioner,"CONDITIONER, 4OZ",$0.58 ,"COND, V05",1.78,1.78
+Colorado,Personal Care/Hygiene,Relaxer,"RELAXER, OPTIMUM",$8.85 ,"RELAXER, OPTIMUM",8.85,8.85
+Colorado,Personal Care/Hygiene,Electric Fan,"FAN, CLEAR",$29.66 ,"FAN, CLEAR",29.66,29.66
+Connecticut,Religious Item,Quran,The Noble Quran (Islamic),$25.99 ,The Noble Quran (Islamic),25.99,25.99
+Connecticut,Religious Item,Bible,"Protestant, English, King James",$4.55 ,"Protestant, English, King James",4.55,4.55
+Connecticut,Religious Item,Hijab,Hijab (Female only),$7.20 ,Hijab (Female only),7.2,7.2
+Connecticut,Religious Item,Kufi Cap,"Kuffi, Crochetted, Regular",$6.47 ,"Kuffi, Crochetted, Regular",6.47,6.47
+Connecticut,Religious Item,Prayer Rug,"prayer rug, 44"" by 27"" (Islamic)",$17.55 ,"prayer rug, 44"" by 27"" (Islamic)",17.55,17.55
+Connecticut,Religious Item,Yarmulke,Yarmulke,$1.04 ,Yarmulke,1.04,1.04
+Connecticut,Religious Item,Islamic Prayer Beads,Zikar Beads (small),$4.80 ,Zikar Beads (small),4.8,4.8
+Connecticut,Religious Item,Rosary Beads,Black Rosary Beads (w/case),$0.48 ,Black Rosary Beads (w/case),0.48,0.48
+Connecticut,Religious Item,Crucifix,Crucifix (no chain),$1.16 ,Crucifix (no chain),1.16,1.16
+Connecticut,Religious Item,Star of David,Star of David (no chain),$25.48 ,Star of David (no chain),25.48,25.48
+Connecticut,Food,Ramen,"Ramen Beef, Less Sodium -S",$0.46 ,"Ramen Beef, Less Sodium -S",0.46,0.46
+Connecticut,Food,Beans,Cheesy Refried Beans,$1.17 ,Cheesy Refried Beans,1.17,1.17
+Connecticut,Food,Peanut Butter,Peanut Butter,$3.19 ,Peanut Butter,3.19,3.19
+Connecticut,Personal Care/Hygiene,Reading Glasses,Reading Glasses,$1.56 ,Reading Glasses,1.56,1.56
+Connecticut,Personal Care/Hygiene,Toothbrush,"Tek Excel Toothbrush, Soft",$0.49 ,"Tek Excel Toothbrush, Soft",0.49,0.49
+Connecticut,Personal Care/Hygiene,Toothpaste,Ultra Brite Toothpaste,$1.59 ,Whitening Colgate toothpaste,3.54,3.54
+Connecticut,Personal Care/Hygiene,Deodorant,Dial Roll-On,$1.17 ,Secret Deodorant,2.52,2.52
+Connecticut,Personal Care/Hygiene,Soap,Jergens Mild Soap,$0.78 ,Dove Soap,1.64,1.64
+Connecticut,Personal Care/Hygiene,Lotion,VO5 Conditioner,$1.73 ,Elementz Conditioner,1.96,1.96
+Connecticut,Personal Care/Hygiene,Hair Conditioner,Dial Advanced Therapy Lotion,$3.16 ,Lubriderm Lotion,4.01,4.01
+Connecticut,Personal Care/Hygiene,Relaxer,Hair Relaxer,$7.41 ,Hair Relaxer,7.41,7.41
+Connecticut,Personal Care/Hygiene,Electric Fan,Clear 6-inch Fan,$13.59 ,Clear 6-inch Fan,13.59,13.59
+Delaware,Religious Item,Quran,Qur'an,$7.14 ,Qur'an,7.14,7.14
+Delaware,Religious Item,Bible,Holy Bible or Santa Biblia,$2.34 ,Holy Bible or Santa Biblia,2.34,2.34
+Delaware,Religious Item,Hijab,One Piece Hijab,$17.98 ,One Piece Hijab,17.98,17.98
+Delaware,Religious Item,Kufi Cap,"Kufi, White (Muslims only)",$7.09 ,"Kufi, White (Muslims only)",7.09,7.09
+Delaware,Religious Item,Prayer Rug,Prayer Rug,$13.88 ,Prayer Rug,13.88,13.88
+Delaware,Religious Item,Yarmulke,"Yarmulke, White (Jews Only)",$3.00 ,"Yarmulke, White (Jews Only)",3,3
+Delaware,Religious Item,Rosary Beads,Rosary Beads,$1.80 ,Rosary Beads,1.8,1.8
+Delaware,Religious Item,Crucifix,"Cross, Silver w/ chain",$52.50 ,"Cross, Silver w/ chain",52.5,52.5
+Delaware,Food,Ramen,CHICKEN,$0.42 ,CHICKEN,0.42,0.45
+Delaware,Food,Beans,SEVILLA REFRIED BEANS-,$1.35 ,SEVILLA REFRIED BEANS-,1.35,2.02
+Delaware,Food,Peanut Butter,CREAMY PEANUT BUTTER 180Z,$2.46 ,CREAMY PEANUT BUTTER 180Z,2.46,2.7
+Delaware,Food,Mac and Cheese,Macaroni & Cheese (3 oz),$1.04 ,Macaroni & Cheese (3 oz),1.04,1.04
+Delaware,Personal Care/Hygiene,Reading Glasses,READING GLASSES,$2.22 ,READING GLASSES,2.22,4.8
+Delaware,Personal Care/Hygiene,Toothbrush,"Toothbrush, TEK, soft",$0.60 ,"Toothbrush, Colgate (Soft)",0.91,0.97
+Delaware,Personal Care/Hygiene,Toothpaste,"Toothpaste, Close-Up (4 oz)",$1.80 ,"Toothpaste, Colgate (6 oz)",2.76,3.72
+Delaware,Personal Care/Hygiene,Deodorant,Dial Roll-On (1.5 oz),$1.43 ,SECRET POWDER FRESH DEODORANT,1.92,2.52
+Delaware,Personal Care/Hygiene,Soap,Ivory (3.1 oz),$0.80 ,Dove Soap 4oz,2.52,2.7
+Delaware,Personal Care/Hygiene,Lotion,Elementz Conditioner,$1.45 ,Softee Coconut Oil Conditioner 5 Oz,1.92,2.49
+Delaware,Personal Care/Hygiene,Hair Conditioner,COCA BUTTER LOTION,$1.50 ,"Lotion,Lubriderm Unscented (6oz.)",3.78,3.78
+Delaware,Personal Care/Hygiene,Electric Fan,"Massey 8"" Fan",$22.80 ,"WEST BEND 8"" FAN",24,37.98
+Florida,Food,Ramen,"Soup, Chicken Ramen, MARUCHAN, 3 oz",$1.06 ,"Soup, Chicken Ramen, MARUCHAN, 3 oz",1.06,1.06
+Florida,Food,Beans,"VELVEETA, Cheesy Refried Beans, 4 oz",$3.00 ,"VELVEETA, Cheesy Refried Beans, 4 oz",3,3
+Florida,Food,Peanut Butter,"Peanut Butter, Squeezer, SQUEEZUMS, 2 oz",$0.77 ,"Peanut Butter, Squeezer, SQUEEZUMS, 2 oz",0.77,0.77
+Florida,Personal Care/Hygiene,Toothbrush,"Toothbrush Security, 4"" ea.",$0.73 ,"Toothbrush Security, 4"" ea.",0.73,0.73
+Florida,Personal Care/Hygiene,Toothpaste,"Toothpaste, FRESHMINT, 4.6 oz",$2.85 ,"Toothpaste, COLGATE, Gel 4.2 oz.",4.17,4.17
+Florida,Personal Care/Hygiene,Deodorant,"FRESHSCENT, AP Roll On Deodorant, 1.5 oz.",$1.51 ,"FRESHSCENT, Deodorant, Mens, 2.25 oz.",2.25,2.25
+Florida,Personal Care/Hygiene,Soap,"NEXT 1, Moisturizing Bar Soap, 5 oz.",$0.90 ,"NEXT 1, Moisturizing Bar Soap, 5 oz.",0.9,0.9
+Florida,Personal Care/Hygiene,Lotion,"FRESHSCENT, Conditioner, 4 oz.",$1.44 ,"Conditioner, VO5, 12.5 oz.",1.82,1.82
+Florida,Personal Care/Hygiene,Hair Conditioner,"FRESHSCENT,Cocoa Butter Lotion, 4 oz.",$2.42 ,"Body Lotion, INFUZED, 15 oz.",2.67,2.67
+Florida,Personal Care/Hygiene,Relaxer,"Perm Kit, DARK & LOVELY",$10.93 ,"Perm Kit, DARK & LOVELY",10.93,10.93
+Georgia,Food,Ramen,Maruchan Beef Soup 1 Bag 3 oz,$0.70 ,Maruchan Beef Soup 1 Bag 3 oz,0.7,0.7
+Georgia,Food,Beans,Beans Refried 8oz Clearpack,$2.34 ,Beans Refried 8oz Clearpack,2.34,2.34
+Georgia,Food,Peanut Butter,Peanut Butter .5 oz pouch,$0.29 ,Peanut Butter Jar - 18 oz,4.91,4.91
+Georgia,Personal Care/Hygiene,Reading Glasses,Reading Glasses 1.5 Strength,$4.73 ,Reading Glasses 1.5 Strength,4.73,4.73
+Georgia,Personal Care/Hygiene,Toothbrush,Tek Straight Toothbrush Medium,$0.65 ,Tek Straight Toothbrush Medium,0.65,0.65
+Georgia,Personal Care/Hygiene,Toothpaste,INDV Colgate Toothpaste.15oz,$0.50 ,Colgate Cavity Protection Fluoride Toothpaste,2.54,2.54
+Georgia,Personal Care/Hygiene,Deodorant,INDV Deodorant Clear 3 gm,$0.25 ,Secret Wide Base Solid AP Stick Deodorant,4.49,4.49
+Georgia,Personal Care/Hygiene,Soap,Ivory Soap 3.1 oz,$0.65 ,Dove Soap for Sensitive Skin - 4.25 oz,2.5,2.5
+Georgia,Personal Care/Hygiene,Lotion,Freshscent Cocoa Butter Lotion 4 oz,$0.85 ,Suave Advanced Therapy Lotion (No Pump),3.36,3.36
+Georgia,Personal Care/Hygiene,Hair Conditioner,Suave Waterfall Mist Conditioner - 12 oz,$2.09 ,Softee Conditioner 13.5 oz,5.05,5.05
+Georgia,Personal Care/Hygiene,Electric Fan,"West Bend Fan, 10 inch, non-oscillating",$32.17 ,"West Bend Fan, 10 inch, non-oscillating",32.17,32.17
+Hawaii,Food,Ramen,"SOUP POUCH, CHICKEN RAMEN",$0.85 ,"SOUP POUCH, CHICKEN RAMEN",0.85,0.94
+Hawaii,Food,Beans,"COOKQUIK REFRIED BEANS W/LALAPENOS & GREEN CHILES
+4 OZ",$2.27 ,"COOKQUIK REFRIED BEANS W/LALAPENOS & GREEN CHILES
+4 OZ",2.27,2.49
+Hawaii,Food,Peanut Butter,OLD FASHIONED PEANUT BUTTER PACKET,$0.95 ,CREAMY PEANUT BUTTER 18 oz,6.63,6.63
+Hawaii,Food,Mac and Cheese,"EASY MAC CUP ORIGINALS, 2.05 ounces",$3.79 ,"EASY MAC CUP ORIGINALS, 2.05 ounces",3.79,4.16
+Hawaii,Personal Care/Hygiene,Reading Glasses,READING GLASSES BLACK FRAME 1.00,$13.07 ,READING GLASSES BLACK FRAME 1.00,13.07,14.34
+Hawaii,Personal Care/Hygiene,Toothbrush,SOFT TOOTHBRUSH,$0.72 ,MEDIUM TOOTHBRUSH,1.89,2.08
+Hawaii,Personal Care/Hygiene,Toothpaste,"FRESHMENT SENSITIVE TOOTHPASTE (LIKE SENSODYNE), 4.3 ounces",$2.37 ,"COLGATE MINT BAKING SODA GEL TOOTHPASTE, 6 ounces",6.15,6.75
+Hawaii,Personal Care/Hygiene,Deodorant,FRESH SCENT STICK DEODORANT ALCOHOL FREE 0.5 OZ,$1.23 ,SECRET SOLID AP/DEO WIDE POWDER FRESH SCENT 1.7 OZ,4.51,4.95
+Hawaii,Personal Care/Hygiene,Soap,"PERSONAL CARE ANTIBACTERIAL BAR, 3 ounces",$1.23 ,Dove Soap-4 oz,1.95,2.25
+Hawaii,Personal Care/Hygiene,Lotion,PRESCRIPTION CARE MEDICATED SKIN CREAM,$2.56 ,LOTION ADVANCED THERAPY 10 OZ,4.87,5.34
+Hawaii,Personal Care/Hygiene,Hair Conditioner,VO5–Conditioner–16.9oz,$2.25 ,LEVEL 10 CONDITIONER 15 OZ,3.5,3.84
+Hawaii,Personal Care/Hygiene,Relaxer,DARK & LOVELY SUPER CONDITIONING RELAXER SYSTEM 6 OZ,$15.81 ,DARK & LOVELY SUPER CONDITIONING RELAXER SYSTEM 6 OZ,15.81,17.35
+Hawaii,Personal Care/Hygiene,Electric Fan,"PORTABLE FAN 5"" BATTERY OPERATED",$27.59 ,"PORTABLE FAN 5"" BATTERY OPERATED",27.59,27.59
+Idaho,Religious Item,Kufi Cap,Kufi Cap,$5.13 ,Kufi Cap,5.13,5.13
+Idaho,Religious Item,Prayer Rug,"Religion - Rug, Turkish Prayer (color may vary)",$12.39 ,"Religion - Rug, Turkish Prayer (color may vary)",12.39,12.39
+Idaho,Religious Item,Yarmulke,SKULL CAP/YARMULKE (WHT),$0.68 ,SKULL CAP/YARMULKE (WHT),0.68,0.68
+Idaho,Religious Item,Islamic Prayer Beads,"Religion - Beads, Islamic Prayer",$4.55 ,"Religion - Beads, Islamic Prayer",4.55,4.55
+Idaho,Religious Item,Rosary Beads,Religious - Rosary,$1.58 ,Religious - Rosary,1.58,1.58
+Idaho,Religious Item,Crucifix,"Religion - Medallion, Crucifix",$23.85 ,"Religion - Medallion, Crucifix",23.85,23.85
+Idaho,Religious Item,Star of David,"Religion - Medallion, Star of David",$23.85 ,"Religion - Medallion, Star of David",23.85,23.85
+Idaho,Food,Ramen,Ramen - Chicken 3 oz,$0.47 ,Ramen - Chicken 3 oz,0.47,0.47
+Idaho,Food,Beans,"Meals - Beans, Refried, Spicy 8 oz",$1.89 ,"Meals - Beans, Refried, Spicy 8 oz",1.89,1.89
+Idaho,Food,Peanut Butter,Condiments - Peanut Butter 2 oz,$0.44 ,Condiments - Peanut Butter 2 oz,0.44,0.44
+Idaho,Food,Mac and Cheese,Velveeta Macaroni and Cheese 3oz,$2.01 ,Velveeta Macaroni and Cheese 3oz,2.01,2.01
+Idaho,Personal Care/Hygiene,Reading Glasses,Glasses - Reading 2.25X,$11.39 ,Glasses - Reading 2.25X,11.39,12.04
+Idaho,Personal Care/Hygiene,Toothbrush,"Oral Care - Toothbrush Soft, Tex",$2.03 ,"Oral Care - Toothbrush Medium Head, Colgate",2.33,2.33
+Idaho,Personal Care/Hygiene,Toothpaste,Oral Care - Toothpaste - Coolwave 4 oz,$1.33 ,Oral Care - Toothpaste - Colgate 4.2 oz,3.7,3.7
+Idaho,Personal Care/Hygiene,Deodorant,FRESHSCENT DEODORANT PUSH UP CLEAR STICK,$2.01 ,MENNEN SPEED STICK ANTIPERSPIRANT DEODORANT ULTIMATE SPORT 3 OZ,4.95,4.95
+Idaho,Personal Care/Hygiene,Soap,Soap - Bar - Moisturizing 5 oz,$0.82 ,Soap - Bar - Irish Spring - Original 3.2 oz 3 pk,4.38,4.38
+Idaho,Personal Care/Hygiene,Lotion,Lotion - Cocoa & Shea Butter 15 oz,$2.01 ,Lotion - Suave Advanced Therapy 10 oz,3.65,3.65
+Idaho,Personal Care/Hygiene,Hair Conditioner,Hair - Conditioner - Coconut Oil 5 oz.,$2.12 ,Hair - Conditioner - Pantene Classic Clean 12 oz,9.71,9.71
+Idaho,Personal Care/Hygiene,Electric Fan,"Fan - 8"" Clear",$24.30 ,"Fan - 8"" Clear",24.3,24.3
+Illinois,Food,Ramen,Maruchan Ramen Noodles Beef 3 Oz.,$0.65 ,Maruchan Ramen Noodles Beef 3 Oz.,0.65,0.65
+Illinois,Food,Beans,San Miguel Spicy Cheese Refried Beans And Rice 8 Oz,$0.90 ,San Miguel Spicy Cheese Refried Beans And Rice 8 Oz,0.9,0.9
+Illinois,Food,Peanut Butter,Old Fashioned Peanut Butter Packet,$0.35 ,"Food Express Creamy Peanut Butter, 18 oz",2.15,2.15
+Illinois,Food,Mac and Cheese,Hospitality Macaroni & Cheese,$0.94 ,Hospitality Macaroni & Cheese,0.94,0.94
+Illinois,Personal Care/Hygiene,Toothbrush,Short Handle Toothbrush 1440,$0.06 ,Oraline_Toothbrush_Security Flex Crossover_4,0.19,0.19
+Illinois,Personal Care/Hygiene,Toothpaste,Freshmint_Toothpaste__4.6 Oz,$0.76 ,Colgate Clear Gel Toothpaste 4.2 oz,2.11,2.11
+Illinois,Personal Care/Hygiene,Deodorant,Freshscent_Antiperspirant Deodorant_Roll On Alcohol Free_1.5 Oz,$0.44 ,Secret Clear Gel Lavender 2.6 Oz,7.88,7.88
+Illinois,Personal Care/Hygiene,Soap,Next 1_Soap_Deodorant Hypoallergenic_3 Oz,$0.44 ,Ivory_Soap_Original Bar_4 Oz,1.01,1.01
+Illinois,Personal Care/Hygiene,Lotion,Freshscent Cocoa Butter Lotion 4Oz,$0.50 ,Vaseline Repairing Moisture Lotion 10Oz,5.08,5.08
+Illinois,Personal Care/Hygiene,Hair Conditioner,Urban Wash 2 N 1 Active Shampoo & Conditioner,$1.29 ,Suave Conditioner Green Apple,1.41,1.41
+Illinois,Personal Care/Hygiene,Relaxer,Dark & Lovely Regular Relaxer Kit,$7.95 ,Dark & Lovely Regular Relaxer Kit,7.95,7.95
+Illinois,Personal Care/Hygiene,Electric Fan,"Cleartunes 6"" Clear Table Fan",$13.73 ,"Cleartunes 6"" Clear Table Fan",13.73,13.73
+Indiana,Religious Item,Hijab,Hijab Shawl Black,$15.03 ,Hijab Shawl Black,15.03,15.03
+Indiana,Religious Item,Kufi Cap,Kufi Cap Black,$12.26 ,Kufi Cap Black,12.26,12.26
+Indiana,Religious Item,Prayer Rug,Prayer Rug,$20.56 ,Prayer Rug,20.56,20.56
+Indiana,Religious Item,Yarmulke,Satin Kippah Black,$2.77 ,Satin Kippah Black,2.77,2.77
+Indiana,Religious Item,Islamic Prayer Beads,Muslim Dhirkr Bead,$5.35 ,Muslim Dhirkr Bead,5.35,5.35
+Indiana,Religious Item,Rosary Beads,"Rosary 16.5"" Plastic White",$1.97 ,"Rosary 16.5"" Plastic White",1.97,1.97
+Indiana,Religious Item,Crucifix,Crucifix Medallion,$37.80 ,Crucifix Medallion,37.8,37.8
+Indiana,Religious Item,Star of David,Star of David Medallion,$13.83 ,Star of David Medallion,13.83,13.83
+Indiana,Food,Ramen,Ramen-Chicken Noodle Soup,$0.52 ,Ramen-Chicken Noodle Soup,0.52,0.52
+Indiana,Food,Beans,Beans-Refried w/Jal & Chiles,$1.81 ,Beans-Refried w/Jal & Chiles,1.81,1.81
+Indiana,Food,Peanut Butter,Peanut Butter-Generic Creamy,$3.09 ,Peanut Butter-Peter Pan,3.37,3.37
+Indiana,Food,Mac and Cheese,Mac+Cheese Kraft Easy Mac,$2.84 ,Mac+Cheese Kraft Easy Mac,2.84,2.84
+Indiana,Personal Care/Hygiene,Reading Glasses,Reading Glasses BLK Plas +1.0,$11.17 ,Reading Glasses BLK Plas +1.0,11.17,11.17
+Indiana,Personal Care/Hygiene,Toothbrush,Toothbrush Fingertip,$0.73 ,Toothbrush-Colgate Medium,0.89,0.89
+Indiana,Personal Care/Hygiene,Toothpaste,Toothpaste-Fluoride 1.5 OZ,$0.25 ,Toothpaste-Colgate Total,4.03,4.03
+Indiana,Personal Care/Hygiene,Deodorant,Deodorant-Stick .5oz,$1.24 ,Deodorant-Women's Degree,4.02,4.02
+Indiana,Personal Care/Hygiene,Soap,Bar Soap-Deodorant 1.5oz,$0.23 ,Bar Soap-Dove White,2.64,2.64
+Indiana,Personal Care/Hygiene,Lotion,Hand & Body Lotion Pkts,$0.61 ,Lotion Cocoa Butter,2.55,2.55
+Indiana,Personal Care/Hygiene,Hair Conditioner,Conditioner-Bergamot Green,$1.56 ,Conditioner-Pantene,7.66,7.66
+Indiana,Personal Care/Hygiene,Electric Fan,"Fan-8""",$33.57 ,"Fan-8""",33.57,33.57
+Iowa,Religious Item,Bible,Holy Bible (KJV),$3.99 ,Holy Bible (KJV),3.99,3.99
+Iowa,Food,Ramen,Ramen (Beef),$0.43 ,Ramen (Beef),0.43,0.43
+Iowa,Food,Beans,"Velveeta Refried Beans (Cheesy) (Spicy), 4 ounces",$1.04 ,"Refried Beans (Hot), 8 oz",1.6,1.6
+Iowa,Food,Peanut Butter,Peanut Butter (Creamy)(Packet) 10 ct,$2.73 ,"Peanut Butter (Creamy), 18 ounces",2.78,2.78
+Iowa,Food,Mac and Cheese,Macaroni Cheese Dinner,$0.75 ,"Velveeta Mac & Cheese Pouch, 3 ounces",1.3,1.3
+Iowa,Personal Care/Hygiene,Reading Glasses,Reading Glasses,$8.99 ,Reading Glasses,8.99,8.99
+Iowa,Personal Care/Hygiene,Toothbrush,Security Toothbrush,$0.35 ,Colgate (Soft),0.88,0.88
+Iowa,Personal Care/Hygiene,Toothpaste,"Close Up (Red Gel), 6 ounces",$2.96 ,"Colgate Total, 3.3oz",4.76,4.76
+Iowa,Personal Care/Hygiene,Deodorant,Power Up (Drive) 2.5 ounces,$1.72 ,Secret (Powderfresh),2.41,2.41
+Iowa,Personal Care/Hygiene,Soap,Next 1 (Moisturizing Bar) 5 ounces,$0.73 ,"Dove Beauty Bar, 3.15 ounces",2.67,2.67
+Iowa,Personal Care/Hygiene,Lotion,"Petroleum Jelly, 3.75oz",$0.96 ,"Jergen's Lotion (Original), 10oz",5.8,5.8
+Iowa,Personal Care/Hygiene,Hair Conditioner,Lusti Bergamot,$1.50 ,Pantene (Pro‐V) Conditioner,6.5,6.5
+Iowa,Personal Care/Hygiene,Electric Fan,"6"" Fan (Clip On)",$15.38 ,"8"" Clear Fan",24.23,24.23
+Kansas,Food,Ramen,DRAGON EXPRESS CHICKEN RAMEN,$0.72 ,DRAGON EXPRESS CHICKEN RAMEN,0.72,0.72
+Kansas,Food,Beans,SAN MIGUEL REFRIED BEANS K/H 8 OZ,$1.73 ,"COOKQUIK REFRIED BEANS WITH JALAPENOS AND GREEN CHILES, 8 ounces",3,3
+Kansas,Food,Peanut Butter,FOOD EXPRESS CREAMY PEANUT BUTTER K 18 OZ,$4.69 ,FOOD EXPRESS CREAMY PEANUT BUTTER K 18 OZ,4.69,4.69
+Kansas,Food,Mac and Cheese,"HOSPITALITY MACARONI & CHEESE DINNER, 7.25 ounces",$1.50 ,"HOSPITALITY MACARONI & CHEESE DINNER, 7.25 ounces",1.5,1.5
+Kansas,Personal Care/Hygiene,Reading Glasses,READING GLASSES BLK PL FRAME W/ SPRING HINGE 1.00,$12.66 ,READING GLASSES BLK PL FRAME W/ SPRING HINGE 1.00,12.66,12.66
+Kansas,Personal Care/Hygiene,Toothbrush,SECURITY TOOTHBRUSH WHITE THUMB HANDLE,$0.27 ,COLGATE FULL HEAD CELLO WRAPPED SOFT TOOTHBRUSH,0.69,0.69
+Kansas,Personal Care/Hygiene,Toothpaste,FRESHMINT SENSITIVE TOOTHPASTE - 4.3 OZ,$1.25 ,COLGATE BAKING SODA AND PEROXIDE WHITENING MINT TOOTHPASTE - 6 OZ,6.9,6.9
+Kansas,Personal Care/Hygiene,Deodorant,1.6 OZ DEODORANT,$1.35 ,"DEGREE DEODORANT SHOWER CLEAN, 1.6 ounces",6.61,6.61
+Kansas,Personal Care/Hygiene,Soap,"DEODORANT SOAP ANIMAL FAT FREE, 3 ounces",$0.90 ,"DOVE WHITE SOAP SINGLE BAR, 3.17 ounces",3.96,3.96
+Kansas,Personal Care/Hygiene,Lotion,PERSONAL CARE LOTION ALOE - 20 OZ,$2.69 ,JERGEN'S ULTRA HEALING LOTION - 10 OZ,8.92,8.92
+Kansas,Personal Care/Hygiene,Hair Conditioner,OCEAN CLEAR DAILY CONDITIONER BALSAM-12 OZ,$1.93 ,VO5 CONDITIONER EXTRA BODY-12 OZ,2.65,2.65
+Kansas,Personal Care/Hygiene,Relaxer,REGULAR RELAXER KIT,$13.61 ,REGULAR RELAXER KIT,13.61,13.61
+Kansas,Personal Care/Hygiene,Electric Fan,"WEST BEND 6"" CLEAR TABLE FAN",$18.74 ,"WEST BEND 8"" CLEAR TABLE FAN",52.96,52.96
+Kentucky,Food,Ramen,BEEF FLAVOR RAMEN H 3 OZ,$0.68 ,BEEF FLAVOR RAMEN H 3 OZ,0.68,0.68
+Kentucky,Food,Beans,SAN MIGUEL WHOLE BLACK BEANS 8 OZ,$1.47 ,SAN MIGUEL REFRIED BEANS WITH JALAPENOS 8 OZ,2.81,2.81
+Kentucky,Food,Peanut Butter,FOOD EXPRESS CREAMY PEANUT BUTTER 18 OZ,$3.99 ,FOOD EXPRESS CREAMY PEANUT BUTTER 18 OZ,3.99,3.99
+Kentucky,Food,Mac and Cheese,HOSPITALITY MACARONI & CHEESE DINNER 7.25 OZ,$1.28 ,HOSPITALITY MACARONI & CHEESE DINNER 7.25 OZ,1.28,1.28
+Kentucky,Personal Care/Hygiene,Reading Glasses,READING GLASSES BLACK PLASTIC FRAME W/ SPRING HINGE 1.25,$5.62 ,READING GLASSES BLACK PLASTIC FRAME W/ SPRING HINGE 1.25,5.62,5.62
+Kentucky,Personal Care/Hygiene,Toothbrush,TEK PRO STRAIGHT TOOTHBRUSH SOFT,$0.47 ,COLGATE CLASSIC EXTRA CLEAN MEIDUM TOOTHBRUSH,1.24,1.24
+Kentucky,Personal Care/Hygiene,Toothpaste,FRESHMINT CLEAR GEL TOOTHPASTE 6.4 OZ,$1.70 ,COLGATE PLUS SENSITIVE TOOTHPASTE WHITENING 6 OZ,7.5,7.5
+Kentucky,Personal Care/Hygiene,Deodorant,FRESH SCENT STICK DEODORANT ALCOHOL FREE 0.5 OZ,$0.65 ,SECRET SOLID AP/DEO WIDE POWDER FRESH SCENT 1.7 oz,4.49,4.49
+Kentucky,Personal Care/Hygiene,Soap,LEVEL 10 COCOA BUTTER BAR SOAP 5 OZ,$0.78 ,IRISH SPRING ORIGINAL BAR SOAP 3.7 OZ,1.12,1.12
+Kentucky,Personal Care/Hygiene,Lotion,PRESCRIPTION CARE MEDICATED SKIN CREAM 4 OZ,$1.43 ,JERGENS LOTION ORIGINAL 10 OZ,6.99,6.99
+Kentucky,Personal Care/Hygiene,Hair Conditioner,LUSTI HAIR FOOD 4 OZ,$1.45 ,PANTENE CONDITIONER CLASS CLEAN 10.4 OZ,7.04,7.04
+Kentucky,Personal Care/Hygiene,Relaxer,DARK AND LOVELY SUPER CONDITIONING RELAXER SYSTEM,$5.08 ,DARK AND LOVELY SUPER CONDITIONING RELAXER SYSTEM,5.08,5.08
+Maine,Religious Item,Crucifix,SILVER CROSS W/CHAIN,$12.61 ,SILVER CROSS W/CHAIN,12.61,12.61
+Maine,Religious Item,Star of David,STAR OF DAVID MEDALL,$31.65 ,STAR OF DAVID MEDALL,31.65,31.65
+Maine,Food,Ramen,LS CHICKEN RAMEN,$0.80 ,LS CHICKEN RAMEN,0.8,0.8
+Maine,Food,Beans,RED BEANS & RICE 4 OZ,$1.25 ,SV REFRIED BEANS 8OZ,1.8,1.8
+Maine,Food,Peanut Butter,PEANUT BUTTER SS 2 OZ,$0.65 ,PEANUT BUTTER SS 2 OZ,0.65,0.65
+Maine,Food,Mac and Cheese,MACARONI & CHEESE,$1.40 ,MACARONI & CHEESE,1.4,1.4
+Maine,Personal Care/Hygiene,Toothbrush,COLGATE TOOTHBRUSH,$1.10 ,COLGATE TOOTHBRUSH,1.1,1.1
+Maine,Personal Care/Hygiene,Toothpaste,COOL WAVE CLEAR TOOT,$2.32 ,COLGATE ANTICAVITY,2.79,2.79
+Maine,Personal Care/Hygiene,Deodorant,.5 OZ. STICK DEODORA,$0.58 ,SUAVE A/P DEODORANT,2.74,2.74
+Maine,Personal Care/Hygiene,Soap,COAST BAR SOAP 4 ounces,$1.13 ,IVORY SOAP (1/BAR),1.68,1.68
+Maine,Personal Care/Hygiene,Lotion,4OZ SKIN CARE LOTION,$0.73 ,LOTION COCOA BUTTER,2.47,2.47
+Maine,Personal Care/Hygiene,Hair Conditioner,SOFTEE CONDITIONER B,$2.16 ,ALBERTO VO5 CONDITIO,2.21,2.21
+Maine,Personal Care/Hygiene,Relaxer,D&L PERM CREAM RLXR,$10.53 ,D&L PERM CREAM RLXR,10.53,10.53
+Maine,Personal Care/Hygiene,Electric Fan,"6"" CLEAR CLIP ON FAN",$10.55 ,"6"" CLEAR CLIP ON FAN",10.55,10.55
+Maryland,Food,Ramen,CAJUN CHICKEN RAMEN NOODLES 3 OZ,$0.37 ,CAJUN CHICKEN RAMEN NOODLES 3 OZ,0.37,0.37
+Maryland,Food,Beans,SELVILLA REFRIED BEANS REGULAR 8 OZ,$1.80 ,SELVILLA REFRIED BEANS REGULAR 8 OZ,1.8,1.8
+Maryland,Food,Peanut Butter,PEANUT BUTTER PACKET 2 OZ,$0.72 ,PEANUT BUTTER PACKET 2 OZ,0.72,0.72
+Maryland,Food,Mac and Cheese,VELVEETA MACARONI & CHEESE 3 OZ,$1.73 ,VELVEETA MACARONI & CHEESE 3 OZ,1.73,1.73
+Maryland,Personal Care/Hygiene,Toothbrush,ORABRITE TOOTHBRUSH,$0.61 ,FLEXIBLE TOOTHBRUSH,1.78,1.78
+Maryland,Personal Care/Hygiene,Toothpaste,FRESHMINT TOOTHPASTE 4.6 OZ,$1.85 ,COLGATE TOOTHPASTE ** 4 OZ,2.81,2.81
+Maryland,Personal Care/Hygiene,Deodorant,FORCE ANTI- PERSPIRANT DEODORANT 3 OZ,$1.35 ,MENNEN SPEED STICK ANTI- PERSPIRANT DEODORANT 3 OZ,3.65,3.65
+Maryland,Personal Care/Hygiene,Soap,NEXT 1 MOISTURIZING SOAP 5 OZ,$0.61 ,DOVE SOAP 3.17 OZ,1.73,1.73
+Maryland,Personal Care/Hygiene,Lotion,CRAWFORD COCOA BUTTER LOTION 4 OZ,$0.89 ,DIAL ADVANCED THERAPY LOTION 12 OZ,5.2,5.2
+Maryland,Personal Care/Hygiene,Hair Conditioner,FRESHSCENT SHAMPOO & CONDITIONER SS,$0.12 ,ALBERTO V05 CONDITIONER EXTA BODY 12.5 OZ,2.4,2.4
+Maryland,Personal Care/Hygiene,Relaxer,DARK AND LOVELY RELAXER KIT 2 PK,$7.28 ,DARK AND LOVELY RELAXER KIT 2 PK,7.28,7.28
+Massachusetts,Food,Ramen,LS CHICKEN RAMEN,$0.50 ,LS CHICKEN RAMEN,0.5,0.5
+Massachusetts,Food,Beans,SPICY REFRIED BEANS & RICE 4OZ,$1.35 ,SEVILLA REFRIED BEANS REGULAR 8OZ,1.65,1.65
+Massachusetts,Food,Peanut Butter,PEANUT BUTTER SQUEEZE POUCH 2OZ,$0.57 ,PEANUT BUTTER SQUEEZE POUCH 2OZ,0.57,0.57
+Massachusetts,Food,Mac and Cheese,MACARONI & CHEESE 3 OZ,$1.10 ,MACARONI & CHEESE 3 OZ,1.1,1.1
+Massachusetts,Personal Care/Hygiene,Toothbrush,ANTISHANK TOOTHBRUSH,$0.43 ,TEK MED. TOOTHBRUSH,0.6,0.6
+Massachusetts,Personal Care/Hygiene,Toothpaste,COLGATE ANTICAVITY TOOTHPASTE 2.5 OZ,$1.15 ,COLGATE ANTICAVITY TOOTHPASTE 2.5 OZ,1.15,1.15
+Massachusetts,Personal Care/Hygiene,Deodorant,FORCE A/P DEOD ROLL-ON 3 OZ,$1.20 ,SUAVE A/P DEODORANT,2.01,2.01
+Massachusetts,Personal Care/Hygiene,Soap,COAST DEODORANT BAR SOAP 4 OZ,$0.65 ,DOVE SOAP MOISTURIZING BEAUTY BAR 3.17 OZ,1.4,1.4
+Massachusetts,Personal Care/Hygiene,Lotion,COCOA BUTTER STICK 100%,$1.45 ,DIAL ADVANCE THERAPY LOTION 12OZ,3.25,3.25
+Massachusetts,Personal Care/Hygiene,Hair Conditioner,SOFTEE CONDITIONER BERGAMOT 5 OZ,$1.29 ,ALBERTO VO5 CONDITIONER 12.5OZ,1.38,1.38
+Massachusetts,Personal Care/Hygiene,Relaxer,D&L PLUS RELAXER SYSTEM,$6.95 ,D&L PLUS RELAXER SYSTEM,6.95,6.95
+Michigan,Food,Ramen,Maruchan Beef Ramen Soup 3oz,$0.52 ,Maruchan Beef Ramen Soup 3oz,0.52,0.52
+Michigan,Food,Beans,Sevilla Chili Flavored Refried Beans/ Rice 4.4oz.,$1.09 ,Sevilla Refried Beans 8oz,1.63,1.63
+Michigan,Food,Peanut Butter,Keefe Creamy Peanut Butter 18oz,$4.16 ,Keefe Creamy Peanut Butter 18oz,4.16,4.16
+Michigan,Food,Mac and Cheese,Velveeta Macaroni and Cheese 3oz.,$1.33 ,Velveeta Macaroni and Cheese 3oz.,1.33,1.33
+Michigan,Personal Care/Hygiene,Toothbrush,NEW WORLD IMPORTS TOOTHBRUSH ANTISHANK,$0.18 ,Oraline Ora-Brite Security Toothbrush,0.18,0.18
+Michigan,Personal Care/Hygiene,Toothpaste,Freshmint Floride Toothpaste .85oz,$0.17 ,Colgate 4.0oz Great Reg Flavor Toothpaste,3.03,3.03
+Michigan,Personal Care/Hygiene,Deodorant,Freshscent Deodorant .12oz,$0.10 ,Mennen Ultimate Sport 3oz. Gel Deodorant,3.78,3.78
+Michigan,Personal Care/Hygiene,Soap,NEXT 1 SOAP DEODORANT HYPOALLERGENIC 3 oz,$0.61 ,Irish Springs Deodorant Soap 3.2 oz 3pk,3.02,3.02
+Michigan,Personal Care/Hygiene,Lotion,Freshscent Hand and Body Lotion,$0.06 ,Dial Advanced Therapy Lotion 12 oz.,4.04,4.04
+Michigan,Personal Care/Hygiene,Hair Conditioner,Crawford Balsam/Protien Conditioner 4oz,$1.08 ,ALBERTO VO5 CONDITIONER EXTRA BODY 12.5 oz,2.06,2.06
+Minnesota,Food,Ramen,Ramen - Chicken Creamy Maruchan ea 3 oz,$0.41 ,Ramen - Chicken Creamy Maruchan ea 3 oz,0.41,0.41
+Minnesota,Food,Beans,Red Beans and Rice Sevilla ea 4 oz,$0.86 ,"Velveeta Cheesy Refried Beans & Rice, 4 ounces",1.19,1.19
+Minnesota,Food,Peanut Butter,Peanut Butter - Creamy (individual) Squeez-ums ea Individual Pkt,$0.38 ,"Peanut Butter - Creamy, 18 ounces",3.63,3.63
+Minnesota,Food,Mac and Cheese,"Velveeta Macaroni and Cheese, 2.15 ounces",$1.09 ,"Velveeta Macaroni and Cheese, 2.15 ounces",1.09,1.09
+Minnesota,Personal Care/Hygiene,Reading Glasses,"Reading Glasses, +1.00",$7.50 ,"Reading Glasses, +1.00",7.5,7.5
+Minnesota,Personal Care/Hygiene,Toothbrush,Safety Toothbrush Bob Barker,$0.48 ,"Toothbrush - Soft, Colgate",0.82,0.82
+Minnesota,Personal Care/Hygiene,Toothpaste,"Toothpaste - Colgate Whitening, 6.4 ounces",$3.03 ,"Toothpaste - Colgate Max Clean, 6 ounces",4.24,4.24
+Minnesota,Personal Care/Hygiene,Deodorant,"Deodorant - Powder Scent, Suave, 1.2 ounces",$1.82 ,Deodorant - Degree Unilever ea 1.7 oz,3.24,3.24
+Minnesota,Personal Care/Hygiene,Soap,"Soap - Next 1Moisturizing Bar, 5 ounces",$0.68 ,"Soap - Dove Sensitive, 4 ounces",2.43,2.43
+Minnesota,Personal Care/Hygiene,Lotion,Lotion - Hypoallergenic Urban Street ea 16 oz,$1.99 ,LubriSkin (Lubriderm)* Lotion ea 8 oz,2.16,2.16
+Minnesota,Personal Care/Hygiene,Hair Conditioner,Shampoo/Conditioner Ind. Puts. Freshscent pk 10 pks,$1.08 ,Conditioner - Pantene Classic Clean Pantene ea 12 oz,7.01,7.01
+Minnesota,Personal Care/Hygiene,Electric Fan,"Fan, Clear 8""",$22.06 ,"Fan, Clear 8""",22.06,22.06
+Mississippi,Religious Item,Hijab,Hijab,$15.95 ,Hijab,15.95,15.95
+Mississippi,Religious Item,Kufi Cap,Koofie Cap,$5.95 ,Koofie Cap,5.95,5.95
+Mississippi,Religious Item,Prayer Rug,Prayer Rug,$18.95 ,Prayer Rug,18.95,18.95
+Mississippi,Food,Ramen,"Noodles, Beef",$0.89 ,"Noodles, Beef",0.89,0.89
+Mississippi,Food,Beans,Inst. Refried Beans,$3.29 ,Chili w/Beans Pouch,4.29,4.29
+Mississippi,Personal Care/Hygiene,Reading Glasses,Glasses Reading 1.75,$2.29 ,Glasses Reading 1.75,2.29,2.29
+Mississippi,Personal Care/Hygiene,Toothbrush,Toothbrush 28tuft,$0.41 ,Toothbrush 28tuft,0.41,0.41
+Mississippi,Personal Care/Hygiene,Toothpaste,Toothpaste Clear Gel,$1.98 ,Ultra Brite Toothpaste,3.69,3.69
+Mississippi,Personal Care/Hygiene,Deodorant,Stick Deodorant,$1.99 ,Degree Deodorant,5.99,5.99
+Mississippi,Personal Care/Hygiene,Soap,Soap (Ivory),$2.09 ,Soap (Irish Spring),2.39,2.39
+Mississippi,Personal Care/Hygiene,Lotion,"Lotion, Cocoa Butter",$0.89 ,Tone,2.69,2.69
+Mississippi,Personal Care/Hygiene,Hair Conditioner,Conditioner,$0.89 ,Suave Shampoo & Conditioner,4.89,4.89
+Mississippi,Personal Care/Hygiene,Electric Fan,"8"" Clear Fan",$34.95 ,8 inch clear fan,34.95,34.95
+Missouri,Food,Ramen,BEEF FLAVOR MARUCHAN RAMEN NOODLE SOUP,$0.57 ,BEEF FLAVOR MARUCHAN RAMEN NOODLE SOUP,0.57,0.57
+Missouri,Food,Beans,SEVILLA REFRIED BEANS - 8 OZ,$1.63 ,SEVILLA REFRIED BEANS - 8 OZ,1.63,1.63
+Missouri,Food,Peanut Butter,GARDEN CLUB CREAMY PEANUT BUTTER - 18 OZ,$2.13 ,GARDEN CLUB CREAMY PEANUT BUTTER - 18 OZ,2.13,2.13
+Missouri,Food,Mac and Cheese,CINCH MAC & CHEESE - 7.25 OZ,$0.77 ,CINCH MAC & CHEESE - 7.25 OZ,0.77,0.77
+Missouri,Personal Care/Hygiene,Reading Glasses,SHARK EYES READING GLASSES,$1.31 ,SHARK EYES READING GLASSES,1.31,1.31
+Missouri,Personal Care/Hygiene,Toothbrush,SECURITY TOOTHBRUSH/BOB BARKER SECURITY TOOTHBRUSH,$0.20 ,FULL SIZE TOOTHBRUSH,0.56,0.56
+Missouri,Personal Care/Hygiene,Toothpaste,CREST PRO HEALTH 4.3 OZ,$1.99 ,COLGATE CAVITY PROTECTION GEL - 4.2 OZ,3.28,3.28
+Missouri,Personal Care/Hygiene,Deodorant,DUKAL TRANSARENT ROLL ON DEODORANT 1.5OZ,$0.68 ,MENNEN SPEED STICK DEODORANT,2.82,2.82
+Missouri,Personal Care/Hygiene,Soap,BOB BARKER ALL IN 1 SOAP - 2 OZ,$0.51 ,DOVE SENSITIVE SKIN BAR - 3.17 OZ,2.48,2.48
+Missouri,Personal Care/Hygiene,Lotion,OCEAN CLEAR LOTION COCOA BUTTER - 12 OZ,$1.33 ,SUAVE ADVANCED THERAPY LOTION - 10 OZ,3.44,3.44
+Missouri,Personal Care/Hygiene,Hair Conditioner,VO5 2-IN-1 SHAMPOO/CONDITIONER 12.5OZ,$1.38 ,SUAVE ROSEMARY & MINT CONDITIONER 12.6OZ,3.81,3.81
+Missouri,Personal Care/Hygiene,Electric Fan,MASSEY ELECTRIC FAN,$20.88 ,MASSEY ELECTRIC FAN,20.88,20.88
+Montana,Food,Ramen,"Ramen Noodles, Beef",$0.34 ,"Ramen Noodles, Beef",0.34,0.34
+Montana,Food,Beans,Refried Beans,$0.79 ,Refried Beans,0.79,0.79
+Montana,Food,Peanut Butter,Peanut Butter (10/Pk),$2.68 ,Peanut Butter (10/Pk),2.68,2.68
+Montana,Food,Mac and Cheese,Mac & Cheese,$1.04 ,Mac & Cheese,1.04,1.04
+Montana,Personal Care/Hygiene,Reading Glasses,Reading Glasses +1.50,$1.45 ,Reading Glasses +1.50,1.45,1.45
+Montana,Personal Care/Hygiene,Toothbrush,Toothbrush,$1.68 ,Toothbrush,1.68,1.68
+Montana,Personal Care/Hygiene,Toothpaste,"Toothpaste, Clear",$0.91 ,Colgate Clear Cavity,2.3,2.3
+Montana,Personal Care/Hygiene,Deodorant,Antiperspirant,$1.32 ,Womens Deodorant,3.34,3.34
+Montana,Personal Care/Hygiene,Soap,"Soap, Deodorant",$0.72 ,"Soap, Ivory",1.9,1.9
+Montana,Personal Care/Hygiene,Lotion,"Lotion, Johnson’s Baby",$1.22 ,Jergens Lotion,3.83,3.83
+Montana,Personal Care/Hygiene,Hair Conditioner,Conditioner,$1.94 ,Pantene Conditioner,3.8,3.8
+Montana,Personal Care/Hygiene,Relaxer,D & L Plus Relaxer,$7.05 ,D & L Plus Relaxer,7.05,7.05
+Nebraska,Food,Ramen,"Soup,Ramen, Chicken",$0.40 ,"Soup,Ramen, Chicken",0.4,0.4
+Nebraska,Food,Beans,"Velveeta, Spicy Cheesy Beans",$0.88 ,"Beans,Refried,Sevilla,Reg",1.56,1.56
+Nebraska,Food,Peanut Butter,"Peanut Butter,Keefe,Creamy",$2.81 ,"Peanut Butter,Keefe,Creamy",2.81,2.81
+Nebraska,Food,Mac and Cheese,"Velveeta,Cheesy Mac/Ch",$1.14 ,"Velveeta,Cheesy Mac/Ch",1.14,1.14
+Nebraska,Personal Care/Hygiene,Toothbrush,"Toothbrush,Safety 4""",$0.05 ,"Toothbrush,Colgate, Soft",0.26,0.26
+Nebraska,Personal Care/Hygiene,Toothpaste,"Toothpaste,Aim Multibenefit",$1.07 ,"Toothpaste,Colgate 6oz",2.55,2.55
+Nebraska,Personal Care/Hygiene,Deodorant,"Deodorant,Power Up Drive Clear",$1.02 ,"Deodorant, Ladies Speed Stick",1.76,1.76
+Nebraska,Personal Care/Hygiene,Soap,"Soap,Bar Ivory",$0.50 ,"Soap,Bar Dove 4.75 oz",1,1
+Nebraska,Personal Care/Hygiene,Lotion,"Lotion,Cocoa & Shea Butter",$1.54 ,"Lotion,Jergens,Chry Almd 10 oz",3.55,3.55
+Nebraska,Personal Care/Hygiene,Hair Conditioner,"Conditioner,Vo5 Strawb/Cream",$1.20 ,"Conditioner,Panteen Pro-V",5.22,5.22
+Nevada,Religious Item,Hijab,HIJAB ISLAMIC - BLACK,$12.78 ,HIJAB ISLAMIC - BLACK,12.78,12.78
+Nevada,Religious Item,Kufi Cap,"KUFI CAP CROCHET - WHITE, BLACK",$6.11 ,"KUFI CAP CROCHET - WHITE, BLACK",6.11,6.11
+Nevada,Religious Item,Prayer Rug,PRAYER RUG 48X27 VARIOUS,$13.33 ,PRAYER RUG 48X27 VARIOUS,13.33,13.33
+Nevada,Religious Item,Yarmulke,"SKULL CAP YARMULKE - WHITE, BLACK",$0.47 ,"SKULL CAP YARMULKE - WHITE, BLACK",0.47,0.47
+Nevada,Religious Item,Islamic Prayer Beads,MUSLIM PRAYER BEADS,$4.17 ,MUSLIM PRAYER BEADS,4.17,4.17
+Nevada,Religious Item,Rosary Beads,ROSARY BEADS,$1.17 ,ROSARY BEADS,1.17,1.17
+Nevada,Religious Item,Crucifix,SILVER CRUCIFIX MEDALLION,$26.67 ,SILVER CRUCIFIX MEDALLION,26.67,26.67
+Nevada,Religious Item,Star of David,SILVER STAR OF DAVID MEDALLION,$25.56 ,SILVER STAR OF DAVID MEDALLION,25.56,25.56
+Nevada,Food,Ramen,TOP RAMEN-BEEF,$0.67 ,TOP RAMEN-BEEF,0.67,0.67
+Nevada,Food,Beans,REFRIED BEANS-DHYDRTD8OZ,$1.62 ,REFRIED BEANS-SEVILLA SPICY,1.73,1.73
+Nevada,Food,Peanut Butter,PEANUT BUTTER-SQUEZ IND PKT,$0.57 ,PEANUT BUTTER-SQUEZ IND PKT,0.57,0.57
+Nevada,Food,Mac and Cheese,MAC N CHEESE-VELVEETA 3OZ,$1.60 ,MAC N CHEESE-VELVEETA 3OZ,1.6,1.6
+Nevada,Personal Care/Hygiene,Reading Glasses,READING GLASSES - 1.25,$13.40 ,READING GLASSES - 1.25,13.4,13.4
+Nevada,Personal Care/Hygiene,Toothbrush,TOOTHBRUSH-FLEX 4 INCH,$0.19 ,TOOTHPASTE-COOLWAVEFRSHMINT 4OZ,0.68,0.68
+Nevada,Personal Care/Hygiene,Toothpaste,TOOTHPASTE - AIM MINT GEL 5.5OZ,$1.38 ,TOOTHPASTE-COLGATE 4.0Z,1.91,1.91
+Nevada,Personal Care/Hygiene,Deodorant,DIAL ROLL ON/ANTI PERS 1.5OZ,$0.91 ,SECRET ANTI-PER PWR FRESH 1.7Z,1.83,1.83
+Nevada,Personal Care/Hygiene,Soap,FRESHSCENT SOAP 1 OZ,$0.13 ,IRISH SPRING 3.75 OZ,0.91,0.91
+Nevada,Personal Care/Hygiene,Lotion,LOTION-SKIN CARE FOIL PACK,$0.06 ,LOTION-SUAVE ADVANCE W/MULTI VITAMIN 10OZ,2.16,2.16
+Nevada,Personal Care/Hygiene,Hair Conditioner,FRESHSNT-SHAMPOO+COND FOIL PK,$0.06 ,CONDITIONER - PANTENE,4.77,4.77
+Nevada,Personal Care/Hygiene,Relaxer,HAIR RELAXR KIT-SOFT&BEAUT REG,$6.82 ,HAIR RELAXRT-DK & LOVLY PLUS,7.96,7.96
+Nevada,Personal Care/Hygiene,Electric Fan,"FAN-8"" ALL PLASTIC/3 SP/CLEAR",$43.80 ,"FAN-8"" ALL PLASTIC/3 SP/CLEAR",43.8,43.8
+New Hampshire,Food,Ramen,NISSIN CHICKEN RAMEN,$0.55 ,NISSIN CHICKEN RAMEN,0.55,0.55
+New Hampshire,Food,Beans,COOKQUIK SMOOTH STYLE REFRIED PINTO BEANS,$3.01 ,COOKQUIK SMOOTH STYLE REFRIED PINTO BEANS,3.01,3.01
+New Hampshire,Food,Peanut Butter,FOOD EXPRESS CREAMY PEANUT BUTTER,$3.50 ,FOOD EXPRESS CREAMY PEANUT BUTTER,3.5,3.5
+New Hampshire,Personal Care/Hygiene,Toothbrush,COLGATE CLASSIC EXTRA CLEAN SOFT TOOTHBRUSH,$0.77 ,SECURITY TOOTHBRUSH WHITE THUMB HANDLE,1.37,1.37
+New Hampshire,Personal Care/Hygiene,Toothpaste,FRESHMINT SENSITIVE TOOTHPASTE (NBE SENSODYNE),$1.44 ,COLGATE REGULAR CAVITY PROTECTION TOOTHPASTE,3.43,3.43
+New Hampshire,Personal Care/Hygiene,Deodorant,SUAVE DEODORANT INVISIBLE SOLID POWDER FRESH,$2.05 ,Degree Deodorant Womens Clean Scent,4.24,4.24
+New Hampshire,Personal Care/Hygiene,Soap,LEVEL 10 COCOA BUTTER BAR SOAP,$0.62 ,DOVE WHITE SOAP BAR SINGLE BAR,2.02,2.02
+New Hampshire,Personal Care/Hygiene,Lotion,OCEAN CLEAR COCOA BUTTER LOTION,$1.49 ,SUAVE LOTION ADVANCED THERAPY,3.64,3.64
+New Hampshire,Personal Care/Hygiene,Hair Conditioner,VO5 MENS 3N1 SHAMP/COND/BODY WASH OCEAN SURGE,$1.38 ,PANTENE CONDITIONER CLASSIC CLEAN,10.14,10.14
+New Jersey,Food,Ramen,"Ramen noodles, Hot-n-Spicy Vegetable, 3 oz",$0.31 ,"Ramen noodles, Hot-n-Spicy Vegetable, 3 oz",0.31,0.31
+New Jersey,Food,Beans,"Chili Refried Rice & Beans, 4.4 oz.",$0.80 ,"Spicy Cheese Refried Beans, Pouch, 4 oz",0.97,0.97
+New Jersey,Food,Peanut Butter,"Peanut Butter, smooth, generic, 18 oz",$2.54 ,"Peanut Butter, smooth, generic, 18 oz",2.54,2.54
+New Jersey,Food,Mac and Cheese,"Macaroni & Cheese, 7.25 oz",$0.90 ,"Macaroni & Cheese, 7.25 oz",0.9,0.9
+New Jersey,Personal Care/Hygiene,Toothbrush,Security Toothbrush,$0.08 ,"Loops Security Toothbrush, Flexible Handle (Min Order 6 each)",2.44,2.44
+New Jersey,Personal Care/Hygiene,Toothpaste,"Generic Toothpaste, 4 oz",$0.90 ,"Crest Tarter Control, 4oz",3.61,3.61
+New Jersey,Personal Care/Hygiene,Deodorant,"Deodorant, Roll-On, 3 oz",$1.15 ,"Anti-Perspirant/ Ladies Deodorant Stick, 2 oz",1.89,1.89
+New Jersey,Personal Care/Hygiene,Soap,"Generic Bar Soap, 5 oz",$0.61 ,"Dove Bar Soap, 4 oz",2.36,2.36
+New Jersey,Personal Care/Hygiene,Lotion,"Dry Skin Lotion, Generic, 15 oz",$1.77 ,"Generic Petroleum Jelly, 7.5 oz",1.92,1.92
+New Jersey,Personal Care/Hygiene,Hair Conditioner,"Generic Conditioner, 12 oz",$1.41 ,"V05 Conditioner, 12.5 oz",1.64,1.64
+New Jersey,Personal Care/Hygiene,Electric Fan,"9"" Electric Fan",$16.34 ,"9"" Electric Fan",16.34,16.34
+New Mexico,Food,Ramen,NISSIN BEEF RAMEN,$0.69 ,NISSIN BEEF RAMEN,0.69,0.69
+New Mexico,Food,Beans,SAN MIGUEL REFRIED BEANS WITH JALAPENOS 8 OZ,$2.12 ,COOKQUIK REFRIED BEANS WITH JALAPENOS AND GREEN CHILES 8 OZ,3.48,3.48
+New Mexico,Food,Peanut Butter,"FOOD EXPRESS CREAMY PEANUT BUTTER, 18 OZ",$4.56 ,"FOOD EXPRESS CREAMY PEANUT BUTTER, 18 OZ",4.56,4.56
+New Mexico,Food,Mac and Cheese,"HOSPITALITY MACARONI & CHEESE DINNER, 7.25 OZ",$1.84 ,"HOSPITALITY MACARONI & CHEESE DINNER, 7.25 OZ",1.84,1.84
+New Mexico,Personal Care/Hygiene,Reading Glasses,READING GLASSES PLASTIC 1.0,$6.86 ,READING GLASSES PLASTIC 1.0,6.86,6.86
+New Mexico,Personal Care/Hygiene,Toothbrush,FRESHMINT 4' FLEXIBLE TOOTHBRUSH,$0.51 ,FRESHMINT 4' FLEXIBLE TOOTHBRUSH,0.51,0.51
+New Mexico,Personal Care/Hygiene,Toothpaste,ULTRA BRITE ADVANCED WHITENING CLEAN MINT TOOTHPASTE 6 OZ,$2.88 ,COLGATE REGULAR CAVITY PROTECTION TOOTHPASTE 4.2 OZ,3.56,3.56
+New Mexico,Personal Care/Hygiene,Deodorant,URBAN STREET CLEAR MEN'S GEL PUSH UP DEO CLASSIC SCENT 2.5 OZ,$2.64 ,SECRET SOLID AP/DEO WIDE POWDER FRESH SCENT 1.7 OZ,5.36,5.36
+New Mexico,Personal Care/Hygiene,Soap,FRESH SCENT DEODORANT SOAP ANIMAL FAT FREE I/W 1.5 OZ,$0.59 ,DOVE WHITE BEAUTY BAR WITH DEEP MOISTURE SINGLE BAR SOAP 4 OZ,6.15,6.15
+New Mexico,Personal Care/Hygiene,Lotion,PERSONAL CARE LOTION ALOE 18 OZ,$2.50 ,URBAN STREET ALOE BODY LOTION 16 OZ,3.01,3.01
+New Mexico,Personal Care/Hygiene,Hair Conditioner,SOFTEE AFRICAN CROWN HAIR DRESSING 5 OZ,$2.97 ,PANTENE CONDITIONER CLASSIC CLEAN 10.4 OZ,14.93,14.93
+New Mexico,Personal Care/Hygiene,Relaxer,SOFT & BEAUTIFUL REGULAR RELAXER KIT,$12.50 ,SOFT & BEAUTIFUL REGULAR RELAXER KIT,12.5,12.5
+North Carolina,Food,Ramen,MARUCHAN RAMEN NOODLE HOT-N-SP,$0.24 ,MARUCHAN RAMEN NOODLE HOT-N-SP,0.24,0.6
+North Carolina,Food,Beans,COOKQUIK REFRIED BEANS 8OZ,$0.74 ,SEVILLA REFRIED BEANS 8OZ,1.5,2.42
+North Carolina,Food,Peanut Butter,SQUEEZUM PEANUT BUTTER SQUEEZE,$0.36 ,SKIPPY PEANUT BUTTER 1.12 OZ,0.52,4.5
+North Carolina,Personal Care/Hygiene,Reading Glasses,ENTERPRISE READING GLASSES,$8.40 ,ENTERPRISE READING GLASSES,8.4,8.4
+North Carolina,Personal Care/Hygiene,Toothbrush,ANTI SHANK TOOTHBRUSH,$0.13 ,COLGATE FULL HEAD SOFT TOOTHBR,0.31,1.01
+North Carolina,Personal Care/Hygiene,Toothpaste,FRESHMINT TOOTHPASTE 2.75 OZ.,$0.52 ,COLGATE GEL TOOTHPASTE 4.2OZ,2.28,6.64
+North Carolina,Personal Care/Hygiene,Deodorant,FRESH START DEODORANT/ANTI-PER,$0.70 ,SOLID SECRET POWDER FRESH 1.7 OZ,2.14,3.24
+North Carolina,Personal Care/Hygiene,Soap,IRISH SPRING ORIGINAL SOAP 3.,$0.66 ,DOVE WHITE SOAP 1 CT 3.5OZ,1.73,2.75
+North Carolina,Personal Care/Hygiene,Lotion,CRAWFORD COCOA BUTTER LOTION 4,$0.60 ,SUAVE SKIN THERAPY LOTION ADVA,2.88,4.4
+North Carolina,Personal Care/Hygiene,Hair Conditioner,ALBERTO V05 EXTRA BODY CONDITI,$1.20 ,PANTENE PROV DAILY MOISTURE RE,7.18,8.22
+North Dakota,Religious Item,Crucifix,CRUCIFIX CROSS PENDANT,$20.25 ,CRUCIFIX CROSS PENDANT,20.25,20.25
+North Dakota,Religious Item,Star of David,STAR OF DAVID PENDANT,$14.75 ,STAR OF DAVID PENDANT,14.75,14.75
+North Dakota,Food,Ramen,RAMEN - BEEF OR PICANTE BEEF,$0.53 ,RAMEN - BEEF OR PICANTE BEEF,0.53,0.53
+North Dakota,Food,Beans,SPICY CHEESY REFRIED BEANS,$1.23 ,SPICY CHEESY REFRIED BEANS,1.23,1.23
+North Dakota,Food,Peanut Butter,PEANUT BUTTER CREAMY 18oz.,$3.00 ,PEANUT BUTTER CREAMY 18oz.,3,3
+North Dakota,Food,Mac and Cheese,VELVEETA MAC & CHEESE,$1.53 ,VELVEETA MAC & CHEESE,1.53,1.53
+North Dakota,Personal Care/Hygiene,Reading Glasses,READING GLASSES +1.25,$7.80 ,READING GLASSES +1.25,7.8,7.8
+North Dakota,Personal Care/Hygiene,Toothbrush,COLGATE TOOTHBRUSH,$1.23 ,COLGATE TOOTHBRUSH,1.23,1.23
+North Dakota,Personal Care/Hygiene,Toothpaste,CLOSE UP TOOTHPASTE,$2.15 ,COLGATE WHITENING TOOTHPASTE 6 OZ,4.66,4.66
+North Dakota,Personal Care/Hygiene,Deodorant,SUAVE AP DEODORANT,$2.19 ,SECRET POWDERFRESH ANTIPERSPIRANT,3.94,3.94
+North Dakota,Personal Care/Hygiene,Soap,IRISH SPRING SOAP 3pk.,$2.64 ,DOVE SOAP UNSCENTED,3.05,3.05
+North Dakota,Personal Care/Hygiene,Lotion,COCOA BUTTER BAR 3.5OZ,$0.92 ,VASELINE INTENSIVE CARE LOTION,7.72,7.72
+North Dakota,Personal Care/Hygiene,Hair Conditioner,VO5 2-IN-1 SHAMPOO & CONDITIONER 12.5oz.,$2.20 ,PANTENE CONDITIONER,8.1,8.1
+North Dakota,Personal Care/Hygiene,Electric Fan,"8"" MASSY FAN",$27.88 ,"8"" MASSY FAN",27.88,27.88
+Ohio,Religious Item,Kufi Cap,CAP KUFI,$6.14 ,CAP KUFI,6.14,8.51
+Ohio,Religious Item,Prayer Rug,RUG ISLAM PRAYER,$15.07 ,RUG ISLAM PRAYER,15.07,15.07
+Ohio,Food,Ramen,NOODLES RAMEN 3oz CHILI MARUCHAN,$0.30 ,NOODLES RAMEN 3oz CHILI MARUCHAN,0.3,0.44
+Ohio,Food,Beans,BEANS REFRIED W/JALAPENOS 8oz BAG SAN MIGUEL,$1.23 ,BEANS REFRIED 8oz POUCH SEVILLA - MNR,1.17,2.21
+Ohio,Food,Peanut Butter,PEANUT BUTTER 1.12oz SQUEEZ-UMS-HH,$0.33 ,PEANUT BUTTER CREAMY 16.3oz JAR PETER PAN,1.96,2.93
+Ohio,Food,Mac and Cheese,MACARONI & CHEESE 7.25oz BOX HOSPITALITY,$0.89 ,MACARONI & CHEESE 3oz POUCH VELVEETA,0.96,1.17
+Ohio,Personal Care/Hygiene,Reading Glasses,GLASSES READING ROBINSON ENTERPRISES,$1.11 ,GLASSES READING ROBINSON ENTERPRISES,1.11,5.22
+Ohio,Personal Care/Hygiene,Toothbrush,"TOOTHBRUSH 4"" SHORT HANDLE vn32183",$0.05 ,TOOTHBRUSH SOFT FULL HEAD COLGATE - ADA,0.23,1.12
+Ohio,Personal Care/Hygiene,Toothpaste,TOOTHPASTE GEL FLUORIDE 0.12oz CLEAR SECURITY,$0.12 ,TOOTHPASTE CLEAR GEL 4.2oz TUBE COLGATE -ADA,2.36,3.05
+Ohio,Personal Care/Hygiene,Deodorant,DEODORANT GEL 0.12oz 30ct SECURITY PERSONAL CARE,$0.06 ,DEODORANT 1.7oz SECRET,1.91,2.82
+Ohio,Personal Care/Hygiene,Soap,Soap/Body Wash,SOAP DEODORANT 1oz FRESHSCENT,SOAP SENSITIVE SKIN 3.75oz BAR DOVE,1.71,3.23
+Ohio,Personal Care/Hygiene,Lotion,LOTION COCOA BUTTER 4oz BTL FRESHSCENT,$0.49 ,LOTION ADVANCED THERAPY 10oz BOTTLE SUAVE,2.16,3.39
+Ohio,Personal Care/Hygiene,Hair Conditioner,CONDITIONER CLEAR 8oz BOTTLE CRAWFORD,$0.97 ,CONDITIONER PRO-V 12.6oz BOTTLE CLASSIC CARE PANTENE,4.82,6.9
+Ohio,Personal Care/Hygiene,Electric Fan,"FAN 6"" CLEAR CLIP ON MASSEY",$11.69 ,"FAN 8"" CLEAR WEST BEND",20.64,34.96
+Oklahoma,Food,Ramen,MARUCHAN RAMEN BEEF SOUP 3OZ,$0.37 ,MARUCHAN RAMEN BEEF SOUP 3OZ,0.37,0.37
+Oklahoma,Food,Beans,"VELVEETA REFRIED BEANS SPICY
+
+4OZ",$1.21 ,SEVILLA REFRIED BEANS SPICY 8 OZ,1.51,1.51
+Oklahoma,Food,Peanut Butter,KEEFE KITCHEN PEANUT BUTTER CREAM 18OZ,$2.57 ,KEEFE KITCHEN PEANUT BUTTER CREAM 18OZ,2.57,2.57
+Oklahoma,Food,Mac and Cheese,JASPER GILSTER MAC & CHEESE 7.25 OZ,$0.82 ,VELVEETA MACARONI & CHEESE 3OZ,1.11,1.11
+Oklahoma,Personal Care/Hygiene,Reading Glasses,SHARKEYES READING GLASSES,$5.45 ,SHARKEYES READING GLASSES,5.45,5.45
+Oklahoma,Personal Care/Hygiene,Toothbrush,ORALBRITE SECURITY TOOTHBRUSH,$0.06 ,COLGATE EXTRA CLEAN MED TOOTHBRUSH,0.63,0.63
+Oklahoma,Personal Care/Hygiene,Toothpaste,COOL WAVE TOOTHPASTE GEL MINT,$0.97 ,"COLGATE TOTHPASTE GEL GREEN
+
+4.2OZ",2.24,2.24
+Oklahoma,Personal Care/Hygiene,Deodorant,DIAL ROLL ON DEODORANT,$1.32 ,MENNEN SPEED STICK ULTIMATE SPORT 3 OZ,2.7,2.7
+Oklahoma,Personal Care/Hygiene,Soap,FRESHSCENT BAR SOAP 1.5 OZ,$0.11 ,DOVE SOAP 3.5Z,1.85,1.85
+Oklahoma,Personal Care/Hygiene,Lotion,NEW DAY PETROLEUM JELLY 3.75OZ,$1.28 ,SUAVE LOTION ADVANCED W/MULTI VIT 10OZ,3.98,3.98
+Oklahoma,Personal Care/Hygiene,Hair Conditioner,ALBERTO VO5 EXTRA BODY CONDTIONR 12.5 OZ,$1.52 ,SOFTEE CONDITIONER 3N1 16.5 OZ.,5.41,5.41
+Oklahoma,Personal Care/Hygiene,Relaxer,DARK AND LOV REG RELAXER KIT,$10.36 ,DARK AND LOV REG RELAXER KIT,10.36,10.36
+Oklahoma,Personal Care/Hygiene,Electric Fan,MASSEY 8'' CLEAR FAN,$22.24 ,MASSEY 8'' CLEAR FAN,22.24,22.24
+Oregon,Food,Ramen,"Beef Flavor, Maruchan",$0.45 ,"Beef Flavor, Maruchan",0.45,0.45
+Oregon,Food,Beans,"Hot Chili Refried Beans & Rice,Selvilla, 4.4 oz",$1.12 ,"Instant Pinto Refried Beans, Hometown 8 oz",1.33,1.67
+Oregon,Food,Peanut Butter,"Creamy Peanut Butter, 18 oz",$2.72 ,"Creamy Peanut Butter, 18 oz",2.72,3
+Oregon,Food,Mac and Cheese,"Macaroni & Cheese, Velveeta Cheese, 3 oz",$1.07 ,"Macaroni & Cheese, Velveeta Cheese, 3 oz",1.07,1.07
+Oregon,Personal Care/Hygiene,Reading Glasses,Reading Glasses - Circle size,$5.09 ,Reading Glasses - Circle size,5.09,5.59
+Oregon,Personal Care/Hygiene,Toothbrush,Colgate Soft Toothbrush,$0.87 ,Colgate Soft Toothbrush,0.87,0.87
+Oregon,Personal Care/Hygiene,Toothpaste,"Freshmint Gel Toothpaste, 2.75 ounces",$1.06 ,"Colgate Toothpaste w/baking soda, 6 oz",4.36,4.36
+Oregon,Personal Care/Hygiene,Deodorant,Deodorant,"Crawford Clear Stick Deodorant Reg., 0.5 ounces","Secret Powder Fresh AP and Deodrant, 1.7 oz",3,3
+Oregon,Personal Care/Hygiene,Soap,"Next 1 Clear Bar, 3 ounces",$0.76 ,DOVE BAR SOAP 2.6oz,1.93,1.93
+Oregon,Personal Care/Hygiene,Lotion,"Vaseline Intensive Care Lotion, 2 oz",$2.43 ,Dial Lotion Advanced Therapy 12 oz,4.96,4.96
+Oregon,Personal Care/Hygiene,Hair Conditioner,Freshscent Conditioner 4oz,$0.93 ,Pantene 2n1 Shampoo & Conditioner 12.6 oz,7.59,7.59
+Pennsylvania,Religious Item,Hijab,WHITE SCARF,$6.00 ,Cream Square Chiffon Scarf Hijab Kimar Hijabi,12.29,12.29
+Pennsylvania,Religious Item,Kufi Cap,Islamic Men's Knit Kufi Cap–White Acrylic Blend,$2.98 ,Islamic Men’s Knit Kufi Cap – Polyester Blend - WHITE,3.48,3.48
+Pennsylvania,Religious Item,Prayer Rug,Prayer Rug,$14.00 ,Solid Simple Velvet Islamic Prayer Rug,18.98,18.98
+Pennsylvania,Religious Item,Yarmulke,Yarmulke Skullcap Rayon,$3.00 ,Yarmulke Skull Cap,8.95,8.95
+Pennsylvania,Religious Item,Islamic Prayer Beads,Islamic Tesbih Acrylic Prayer Beads,$2.98 ,Amber Wood Muslim Prayer Beads,8.25,8.25
+Pennsylvania,Religious Item,Rosary Beads,Our Lady of Guadalupe Pearl Rosary,$7.90 ,Our Lady of Guadalupe Pearl Rosary,7.9,7.9
+Pennsylvania,Religious Item,Crucifix,Sterling Silver Crucifix,$27.00 ,Silver/Gold Plated Crucifix,39.99,39.99
+Pennsylvania,Religious Item,Star of David,Sterling Silver Star of David,$26.00 ,Star of David Pendant,30,30
+Pennsylvania,Food,Ramen,RAMEN NOODLES CHICKEN FLVR 3OZ,$0.38 ,RAMEN NOODLES CHICKEN FLVR 3OZ,0.38,0.38
+Pennsylvania,Food,Beans,BACON REFRIED BEANS 2.5OZ,$0.80 ,VELVEETA CHSY REFRIED BEANS 4OZ,0.98,0.98
+Pennsylvania,Food,Peanut Butter,CREAMY PEANUT BUTTER PACKET 2OZ,$0.35 ,CREAMY PEANUT BUTTER PACKET 2OZ,0.35,0.35
+Pennsylvania,Personal Care/Hygiene,Reading Glasses,READING GLASSES +1.25,$2.06 ,READING GLASSES +1.25,2.06,2.06
+Pennsylvania,Personal Care/Hygiene,Toothbrush,SECURITY TOOTHBRUSH,$0.13 ,CLASSIC SOFT TOOTHBRUSH,0.75,0.75
+Pennsylvania,Personal Care/Hygiene,Toothpaste,FRESH MINT TOOTHPASTE 1.5OZ,$0.32 ,COLG WHT W/BAKING SODA TOOTHPASTE 6OZ,3.27,3.27
+Pennsylvania,Personal Care/Hygiene,Deodorant,"ROLL-ON DEO/AP, FS 1.5OZ",$0.52 ,SECRET SOLID POWDER FRESH AP/D 1.70Z,1.94,1.94
+Pennsylvania,Personal Care/Hygiene,Soap,BH SOAP,$0.18 ,HYPOALLERGENIC DOVE SOAP 3.750Z,2.74,2.74
+Pennsylvania,Personal Care/Hygiene,Lotion,HAND AND BODY SKIN CARE LOTION 4OZ,$0.48 ,SUAVE ADVANCED THERAPY LOTION 10OZ,3.06,3.06
+Pennsylvania,Personal Care/Hygiene,Hair Conditioner,GREEN BERGAMOT 5OZ,$1.66 ,VO5 KIWI LIME CONDITIONER 15OZ,2.53,2.53
+Pennsylvania,Personal Care/Hygiene,Electric Fan,"CLEAR 6"" TABLE FAN",$10.62 ,"CLEAR 6"" TABLE FAN",10.62,10.62
+Rhode Island,Religious Item,Quran,HOLY KORAN,$26.00 ,HOLY KORAN,26,26
+Rhode Island,Religious Item,Bible,BIBLE,$15.00 ,BIBLE,15,15
+Rhode Island,Religious Item,Hijab,WMN's HIJAB HEAD WRA,$12.25 ,WMN's HIJAB HEAD WRA,12.25,12.25
+Rhode Island,Religious Item,Kufi Cap,KUFI PRAYER CAP - WH,$5.21 ,KUFI PRAYER CAP - WH,5.21,5.21
+Rhode Island,Religious Item,Prayer Rug,ISLAM PRAYER RUG - L,$18.00 ,ISLAM PRAYER RUG - L,18,18
+Rhode Island,Religious Item,Yarmulke,SKULL CAP/YARMULKE,$2.50 ,SKULL CAP/YARMULKE,2.5,2.5
+Rhode Island,Religious Item,Islamic Prayer Beads,PRAYER BEADS - SMALL,$9.00 ,PRAYER BEADS - SMALL,9,9
+Rhode Island,Food,Ramen,CHICKEN RAMEN,$0.42 ,CHICKEN RAMEN,0.42,0.42
+Rhode Island,Food,Beans,SPY REFRIED BEANS&RI,$1.46 ,SV REFRIED BEANS 8OZ,2.1,2.1
+Rhode Island,Food,Peanut Butter,CREAMY PEANUT BUTTER,$3.40 ,CREAMY PEANUT BUTTER,3.4,3.4
+Rhode Island,Food,Mac and Cheese,MACARONI & CHEESE,$1.38 ,MACARONI & CHEESE,1.38,1.38
+Rhode Island,Personal Care/Hygiene,Reading Glasses,1.50 READING GLASSES,$4.80 ,1.50 READING GLASSES,4.8,4.8
+Rhode Island,Personal Care/Hygiene,Toothbrush,ANTISHANK TOOTHBRUSH,$0.08 ,COLGATE TOOTHBRUSH,0.88,0.88
+Rhode Island,Personal Care/Hygiene,Toothpaste,COOL WAVE CLEAR TOOT,$1.40 ,COLGATE FROSTY MINT,4.25,4.25
+Rhode Island,Personal Care/Hygiene,Deodorant,ANTIPERSPIRANT/DEODO,$1.95 ,SUAVE A/P DEODORANT,2.3,2.3
+Rhode Island,Personal Care/Hygiene,Soap,COAST BAR SOAP 4OZ,$0.80 ,DOVE SOAP MOISTURIZI,3.25,3.25
+Rhode Island,Personal Care/Hygiene,Lotion,4 OZ SKIN CARE LOTION,$0.60 ,DIAL ADVANCE THERAPY,3,3
+Rhode Island,Personal Care/Hygiene,Hair Conditioner,COCOA & SHEA COND LO,$2.00 ,CONDITIONER-ALMOND/S,2,2
+Rhode Island,Personal Care/Hygiene,Electric Fan,MASSEY 8 INCH FAN,$18.90 ,MASSEY 8 INCH FAN,18.9,18.9
+South Carolina,Religious Item,Kufi Cap,"KUFI CAP, WHITE",$8.30 ,"KUFI CAP, WHITE",8.3,8.3
+South Carolina,Religious Item,Yarmulke,"YARMULKE CAP, BLACK",$3.05 ,"YARMULKE CAP, BLACK",3.05,3.05
+South Carolina,Food,Ramen,CHICKEN SOUP BRICK,$0.51 ,CHICKEN SOUP BRICK,0.51,0.51
+South Carolina,Food,Beans,"BEAN, PINTO, NO PORK, 16 OZ",$1.46 ,RED BEANS AND RICE,1.83,1.83
+South Carolina,Food,Peanut Butter,"PEANUT BUTTER, CREAMY 18 OZ.",$3.56 ,"PEANUT BUTTER, CREAMY 18 OZ.",3.56,3.56
+South Carolina,Food,Mac and Cheese,"MACARONI & CHEESE, VELVEETA, 30Z",$1.25 ,"MACARONI & CHEESE, VELVEETA, 30Z",1.25,1.25
+South Carolina,Personal Care/Hygiene,Reading Glasses,READING GLASSES-1.25,$5.83 ,READING GLASSES-1.25,5.83,5.83
+South Carolina,Personal Care/Hygiene,Toothbrush,ANGLE TOOTHBRUSH,$0.79 ,ANGLE TOOTHBRUSH,0.79,0.79
+South Carolina,Personal Care/Hygiene,Toothpaste,COLGATE,$0.92 ,CREST PRO-HEALTH,6.99,6.99
+South Carolina,Personal Care/Hygiene,Deodorant,DIAL DEODORANT,$1.92 ,MENNEN SPEED-FRESH-DEO. ONLY,3.12,3.12
+South Carolina,Personal Care/Hygiene,Soap,JERGENS SOAP,$0.62 ,DOVE SOAP,2.98,2.98
+South Carolina,Personal Care/Hygiene,Lotion,PETROLEUM JELLY,$1.89 ,HYPOALLERGENIC LOTION,4.86,4.86
+South Carolina,Personal Care/Hygiene,Hair Conditioner,"CONDITIONER, VO5, 12.5 OZ",$1.84 ,"HAIR CONDITIONER, TCB NATURALS, 10OZ",7.76,7.76
+South Carolina,Personal Care/Hygiene,Relaxer,FABU-LAXER KIT,$9.12 ,SOFT & BEAUTIFUL KIT,9.47,9.47
+South Carolina,Personal Care/Hygiene,Electric Fan,"FAN,PORTABLE,MULTI-SPEED,8""",$23.00 ,"FAN,PORTABLE,MULTI-SPEED,8""",23,23
+South Dakota,Food,Ramen,Spicy Vegetable Ramen,$0.41 ,Low Sodium Chicken Ramen,0.46,0.46
+South Dakota,Food,Beans,Inst. Red Beans and Rice 2oz,$0.90 ,Spicy Refried Beans 8oz,1.8,1.8
+South Dakota,Food,Peanut Butter,Peanut Butter 18oz,$3.56 ,Peanut Butter 18oz,3.56,3.56
+South Dakota,Food,Mac and Cheese,Velveeta Mac & Cheese 3oz,$1.50 ,Velveeta Mac & Cheese 3oz,1.5,1.5
+South Dakota,Personal Care/Hygiene,Reading Glasses,Reading Glasses 1.50,$3.75 ,Reading Glasses 1.50,3.75,3.75
+South Dakota,Personal Care/Hygiene,Toothbrush,Toothbrush Long Handled Tek Pro,$0.49 ,Colgate Extra Clean Toothbrush,0.77,0.77
+South Dakota,Personal Care/Hygiene,Toothpaste,Colgate toothpaste 2.5oz,$1.18 ,Ultrabrite Whitening Toothpaste 6oz,1.62,1.62
+South Dakota,Personal Care/Hygiene,Deodorant,Lady Speed Stick,$2.39 ,Mennen Speed Stick Mens Deodorant,4.64,4.64
+South Dakota,Personal Care/Hygiene,Soap,Dove Sensitive Skin Bar Soap 3.75oz,$1.19 ,Dove Sensitive Skin Bar Soap 3.75oz,1.19,1.19
+South Dakota,Personal Care/Hygiene,Lotion,Cocoa Butter Lotion 18oz,$1.48 ,Jergens Ultra Healing Lotion 10oz,8.32,8.32
+South Dakota,Personal Care/Hygiene,Hair Conditioner,VO5 Conditioner 12oz,$1.18 ,Blue Magic Conditioner 4oz,5.36,5.36
+South Dakota,Personal Care/Hygiene,Electric Fan,"12"" Fan",$35.37 ,"12"" Fan",35.37,35.37
+Texas,Religious Item,Hijab,Hijab-Females Only,$17.00 ,Hijab-Females Only,17,17
+Texas,Food,Ramen,Low Sodium Ramen Noodles,$0.35 ,Low Sodium Ramen Noodles,0.35,0.35
+Texas,Food,Beans,Chicken Chili w/Beans-8 oz,$1.90 ,Refried Beans-Instant - 15oz,2.3,2.3
+Texas,Food,Peanut Butter,Creamy Peanut Butter-18 oz,$2.95 ,Creamy Peanut Butter-18 oz,2.95,2.95
+Texas,Personal Care/Hygiene,Reading Glasses,Reading Glasses-Asst Strength,$3.00 ,Reading Glasses-Asst Strength,3,3.25
+Texas,Personal Care/Hygiene,Toothbrush,"Toothbrush-3""",$0.10 ,"Toothbrush-3""",0.1,0.5
+Texas,Personal Care/Hygiene,Toothpaste,Ad Seg Colgate-1 oz,$1.00 ,Colgate Toothpaste-6 oz,2.6,2.6
+Texas,Personal Care/Hygiene,Deodorant,Mennen Deodorant-3 oz,$1.40 ,Mennen Antiperspirant-3 oz,2.45,2.45
+Texas,Personal Care/Hygiene,Soap,Antibacterial Soap-1.25 oz,$0.15 ,Dial Soap-1.25 oz,0.4,0.4
+Texas,Personal Care/Hygiene,Lotion,White Rain Coco Butter Lotion,$1.30 ,Lubriderm Lotion,4.85,4.85
+Texas,Personal Care/Hygiene,Hair Conditioner,Conditioner-15 oz,$1.35 ,Bergamot-Blue Magic Hair,2.65,2.65
+Texas,Personal Care/Hygiene,Relaxer,Hair Relaxers,$9.00 ,Hair Relaxers,9,9
+Texas,Personal Care/Hygiene,Electric Fan,"Fan 9"" Electric",$23.00 ,"Fan 9"" Electric",23,23
+Utah,Food,Ramen,NISSIN CHICKEN RAMEN,$0.41 ,NISSIN CHICKEN RAMEN,0.41,0.41
+Utah,Food,Beans,SAN MIGUEL WHOLE BLACK BEANS,$1.13 ,SAN MIGUEL SPICY CHEESY REFRIED BEANS,1.6,1.6
+Utah,Food,Peanut Butter,FOOD EXPRESS CREAMY PEANUT BUTTER,$2.75 ,FOOD EXPRESS CREAMY PEANUT BUTTER,2.75,2.75
+Utah,Food,Mac and Cheese,HOSPITALITY MACARONI & CHEESE DINNER,$2.90 ,HOSPITALITY MACARONI & CHEESE DINNER,2.9,2.9
+Utah,Personal Care/Hygiene,Reading Glasses,READING GLASSES BLACK PLASTIC FRAME W/ SPRING HINGE 1,$4.21 ,READING GLASSES BLACK PLASTIC FRAME W/ SPRING HINGE 1,4.21,4.21
+Utah,Personal Care/Hygiene,Toothbrush,SECURITY TOOTHBRUSH WHITE THUMB HANDLE,$0.21 ,COLGATE CLASSIC EXTRA CLEAN MEDIUM TOOTHBRUSH,1.11,1.11
+Utah,Personal Care/Hygiene,Toothpaste,FRESHMINT SENSITIVE TOOTHPASTE (NBE SENSODYNE),$3.67 ,COLGATE WHITENING BAKING SODA TOOTHPASTE BRISK MINT,3.81,3.81
+Utah,Personal Care/Hygiene,Deodorant,MENNEN SPEED STICK DEO POWER FRESH SCENT,$2.60 ,DEGREE DEODORANT EXTREME BLAST,3.89,3.89
+Utah,Personal Care/Hygiene,Soap,PURE ANTIBACTERIAL WHITE SOAP BAR,$0.65 ,DOVE WHITE BEAUTY BAR WITH DEEP MOISTURE SINGLE BAR SOAP,2.14,2.14
+Utah,Personal Care/Hygiene,Lotion,PRESCRIPTION CARE MEDICATED SKIN CREAM,$1.57 ,JERGENS LOTION ORIGINAL,5.36,5.36
+Utah,Personal Care/Hygiene,Hair Conditioner,VO5 CONDITIONER MOISTURE MILK STRAWBERRIES & CREAM,$2.05 ,PANTENE CONDITIONER CLASSIC CARE,6.28,6.28
+Utah,Personal Care/Hygiene,Electric Fan,"ClearTunes 8"" Table Fan",$32.27 ,"ClearTunes 8"" Table Fan",32.27,32.27
+Vermont,Religious Item,Quran,HOLY KORAN,$27.45 ,HOLY KORAN,27.45,27.45
+Vermont,Religious Item,Bible,HOLY BIBLE,$16.11 ,HOLY BIBLE,16.11,16.11
+Vermont,Religious Item,Kufi Cap,KUFI PRAYER CAP - WHITE,$10.03 ,KUFI PRAYER CAP - WHITE,10.03,10.03
+Vermont,Religious Item,Prayer Rug,PRAYER RUG,$28.64 ,PRAYER RUG,28.64,28.64
+Vermont,Food,Ramen,BEEF RAMEN LOW SODIUM,$0.77 ,CHICKEN RAMEN,0.83,0.83
+Vermont,Food,Beans,SEVILLA BEANS & RICE HOT CHILI 4.4 OZ,$2.45 ,VELV. CH REFRIED BEANS 4 OZ,2.5,2.5
+Vermont,Food,Peanut Butter,PB SQUEEZEUM 2 OZ,$1.42 ,PB SQUEEZEUM 2 OZ,1.42,1.42
+Vermont,Food,Mac and Cheese,VELVEETA MACARONI & CHEESE 3 OZ,$2.39 ,VELVEETA MACARONI & CHEESE 3 OZ,2.39,2.39
+Vermont,Personal Care/Hygiene,Reading Glasses,READING GLASSES 1.25X,$15.62 ,READING GLASSES 1.25X,15.62,15.62
+Vermont,Personal Care/Hygiene,Toothbrush,TOOTHBRUSH 28 TUFT,$0.35 ,TOOTHBRUSH - SOFT,1.08,1.08
+Vermont,Personal Care/Hygiene,Toothpaste,COOL WAVE FLUORIDE TOOTHPASTE 4OZ,$2.74 ,COLGATE WINTERFRESH GEL CLEAR 4.2 OZ.,3.53,3.53
+Vermont,Personal Care/Hygiene,Deodorant,ROLL FRESHSCENT 1.5 OZ,$1.70 ,SUAVE ANTI-BACTERIA A/P,3.21,3.21
+Vermont,Personal Care/Hygiene,Soap,"NEXT 1 MOISTURIZING SOAP,5 OZ",$1.51 ,DOVE SOAP BEAUTY BAR 3.17 OZ,2.66,2.66
+Vermont,Personal Care/Hygiene,Lotion,CRAW SKIN CARE LTN 4 OZ,$1.19 ,COCOA BUTTER LOTION 4 OZ.,1.48,1.48
+Vermont,Personal Care/Hygiene,Hair Conditioner,12.5OZ VO5 COND,$2.72 ,SOFTEE HAIR FOOD W/VITAMIN E 5OZ,3.38,3.38
+Virginia,Religious Item,Kufi Cap,KUFI - BLACK,$11.10 ,KUFI - BLACK,11.1,11.1
+Virginia,Religious Item,Prayer Rug,"PRAYER RUG - 44"" x 26""",$12.93 ,"PRAYER RUG - 44"" x 26""",12.93,12.93
+Virginia,Religious Item,Yarmulke,YARMULKE - WHITE,$4.64 ,YARMULKE - WHITE,4.64,4.64
+Virginia,Religious Item,Rosary Beads,"BLACK ROSARY BEADS - 18"" LINKS",$11.14 ,"BLACK ROSARY BEADS - 18"" LINKS",11.14,11.14
+Virginia,Religious Item,Crucifix,SACRED MEDALLION – STERLING SILVER - CRUCIFIX,$38.33 ,SACRED MEDALLION – STERLING SILVER - CRUCIFIX,38.33,38.33
+Virginia,Religious Item,Star of David,SACRED MEDALLION – STERLING SILVER - STAR OF DAVID,$38.33 ,SACRED MEDALLION – STERLING SILVER - STAR OF DAVID,38.33,38.33
+Virginia,Food,Ramen,RAMEN/CHICKEN FLAVOR 3 OZ,$0.36 ,LOW SODIUM MARUCHAN BEEF RAMEN 3 OZ,0.42,0.42
+Virginia,Food,Beans,SEVILLA RED BEANS & RICE 4 OZ,$1.09 ,SEVILLA REFRIED BEANS 8 OZ,2.07,2.07
+Virginia,Food,Peanut Butter,SQUEEZER BRAND CREAMY PEANUT BUTTER 2 OZ POUCH,$1.01 ,CLEAR CHOICE PEANUT BUTTER 18OZ,3.39,3.39
+Virginia,Food,Mac and Cheese,VELVEETA MACARONI AND CHEESE - 3 OZ,$1.33 ,VELVEETA MACARONI AND CHEESE - 3 OZ,1.33,1.33
+Virginia,Personal Care/Hygiene,Reading Glasses,SHARKEYES READING GLASSES POLYCARBONATE LENSE,$2.09 ,SHARKEYES READING GLASSES POLYCARBONATE LENSE,2.09,2.09
+Virginia,Personal Care/Hygiene,Toothbrush,SECURITY TOOTHBRUSH - ANTISHANK,$0.47 ,SOFT TEK-PRO TOOTHBRUSH,0.92,0.92
+Virginia,Personal Care/Hygiene,Toothpaste,PEPSODENT ORIGINAL TOOTHPASTE 5.5 OZ,$1.87 ,COLGATE RED CLEAR GEL TOOTHPASTE 4.2 OZ ANTI-CAVITY,2.94,2.94
+Virginia,Personal Care/Hygiene,Deodorant,FRESHSCENT ROLL-ON 1.5 OZ,$1.10 ,SUAVE ANTIPERSPIRANT DEODORANT POWDER 1.2 OZ,2.71,2.71
+Virginia,Personal Care/Hygiene,Soap,COAST BAR SOAP CLASSIC SCENT 4 OZ,$0.80 ,DOVE BEAUTY BAR 3.17 OZ SOAP,1.46,1.46
+Virginia,Personal Care/Hygiene,Lotion,COCOA BUTTER STICK 1 OZ,$1.31 ,DIAL LOTION ADVANCED THERAPY 12 OZ,5.28,5.28
+Virginia,Personal Care/Hygiene,Hair Conditioner,SOFTEE AFRICAN CROWN HAIRDRESS 4 OZ,$1.71 ,PANTENE DAILY MOISTURE CONDITIONER 10.4 OZ,7.12,7.12
+Virginia,Personal Care/Hygiene,Electric Fan,"6"" PLASTIC CLEAR FAN",$18.30 ,"8"" PLASTIC CLEAR FAN",31.95,31.95
+Washington,Food,Ramen,"Ramen, Rotating Flavor, 3 oz",$0.36 ,"Ramen, Rotating Flavor, 3 oz",0.36,0.36
+Washington,Food,Beans,"Refried Beans, 8 oz",$1.34 ,"Refried Beans w/ Jalapeno & Chilies, 8 oz",1.54,1.54
+Washington,Food,Peanut Butter,"Peanut Butter, Creamy, 18 oz",$2.95 ,"Peanut Butter, Creamy, 18 oz",2.95,2.95
+Washington,Food,Mac and Cheese,"Macaroni & Cheese, 7.25 oz",$1.04 ,"Macaroni & Cheese, 7.25 oz",1.04,1.04
+Washington,Personal Care/Hygiene,Reading Glasses,Reading Glasses - +1.50,$1.89 ,Reading Glasses - +1.50,1.89,1.89
+Washington,Personal Care/Hygiene,Toothbrush,"Toothbrush, Thumbprint",$0.08 ,Colgate Extra Clean Toothbrush,0.64,0.64
+Washington,Personal Care/Hygiene,Toothpaste,"Colgate Toothpaste, 1 oz",$0.67 ,"Colgate Clear Toothpaste, 4.2 oz",2.67,2.67
+Washington,Personal Care/Hygiene,Deodorant,"Deodorant, 1.6 oz",$0.82 ,"Secret, Powder Fresh, 1.7 oz",1.98,1.98
+Washington,Personal Care/Hygiene,Soap,Soap 3 oz,$0.41 ,"Dove Sensitive Hypoallergenic, 3.17 oz",2.1,2.1
+Washington,Personal Care/Hygiene,Lotion,"Crawford Cocoa Butter Lotion, 4oz",$0.64 ,"Suave Advanced Therapy Lotion, 10 oz",2.67,2.67
+Washington,Personal Care/Hygiene,Hair Conditioner,"White Rain Apple Blossom Conditioner, 15 oz",$1.13 ,"Pantene Conditioner, 10.4 oz",5.76,5.76
+West Virginia,Food,Ramen,NISSIN SPICY VEGETABLE RAMEN - CLEAR 3 OZ,$0.57 ,NISSIN CHICKEN RAMEN - CLEAR 3 OZ,0.59,0.59
+West Virginia,Food,Beans,COOKQUIK INSTANT RED BEANS AND RICE CHILI FLAVORED 4.4 OZ,$1.13 ,COOKQUIK INSTANT REFRIED PINTO BEANS LOW FAT (K) 8 OZ,2.54,2.54
+West Virginia,Food,Peanut Butter,"FOOD EXPRESS CREAMY PEANUT BUTTER, 18 OZ",$2.36 ,"FOOD EXPRESS CREAMY PEANUT BUTTER, 18 OZ",2.36,2.36
+West Virginia,Food,Mac and Cheese,"HOSPITALITY MACARONI & CHEESE DINNER, 7.25 OZ",$1.60 ,"HOSPITALITY MACARONI & CHEESE DINNER, 7.25 OZ",1.6,1.6
+West Virginia,Personal Care/Hygiene,Reading Glasses,READING GLASSES BLACK PLASTIC FRAME W/ SPRING HINGE 1,$3.00 ,READING GLASSES BLACK PLASTIC FRAME W/ SPRING HINGE 1,3,3
+West Virginia,Personal Care/Hygiene,Toothbrush,TEK PRO STRAIGHT TOOTHBRUSH MEDIUM,$0.74 ,COLGATE FULL HEAD CELLO WRAPPED SOFT TOOTHBRUSH,0.88,0.88
+West Virginia,Personal Care/Hygiene,Toothpaste,"COLGATE REGULAR CAVITY PROTECTION TOOTHPASTE, 4 OZ",$3.01 ,"CREST CAVITY PROTECTION TOOTHPASTE, 5.7 OZ",5.37,5.37
+West Virginia,Personal Care/Hygiene,Deodorant,"FRESH SCENT STICK DEODORANT ALCOHOL FREE, 1.6 OZ",$1.75 ,"BODY GUARD PUSH UP ANTI-PERSPIRANT DEODORANT, 2.5 OZ",3.25,3.25
+West Virginia,Personal Care/Hygiene,Soap,LEVEL 10 COCOA BUTTER BAR SOAP 5 OZ,$0.95 ,DIAL LAVENDER & JASMINE BODY WASH 16 OZ,5.69,5.69
+West Virginia,Personal Care/Hygiene,Lotion,OCEAN CLEAR COCOA BUTTER LOTION 12 OZ,$1.16 ,JERGENS LOTION ORIGINAL 10 OZ,6.37,6.37
+West Virginia,Personal Care/Hygiene,Hair Conditioner,LUSTI HAIR FOOD 4 OZ,$2.29 ,HERBAL ESSENCES WHITE GRAPEFRUIT & MINT CONDITIONER 13.5 OZ,7.65,7.65
+West Virginia,Personal Care/Hygiene,Relaxer,SOFT & BEAUTIFUL BOTANICAL RELAXER KIT,$13.13 ,DARK and LOVELY SUPER CONDITIONING RELAXER SYSTEM,14.3,14.3
+Wisconsin,Food,Ramen,RAMEN/CHICKEN 3 OZ,$0.60 ,RAMEN/CHICKEN 3 OZ,0.6,0.6
+Wisconsin,Food,Beans,"CHILI FLAVORED RED BEANS & RICE, 4.4 OZ",$1.25 ,REFRIED PINTO BEANS 8 OZ,1.84,1.84
+Wisconsin,Food,Peanut Butter,PETER PAN CREAMY PEANUT BUTTER 16.3 OZ,$3.40 ,PETER PAN CREAMY PEANUT BUTTER 16.3 OZ,3.4,3.4
+Wisconsin,Food,Mac and Cheese,KRAFT EASY MAC MICROWAVE CUP 2.05 OZ,$2.04 ,KRAFT EASY MAC MICROWAVE CUP 2.05 OZ,2.04,2.04
+Wisconsin,Personal Care/Hygiene,Toothbrush,"SECURITY TOOTHBRUSH WHITE THUMB HANDLE 3""",$0.11 ,COLGATE FULL HEAD SOFT TOOTHBRUSH,0.44,0.44
+Wisconsin,Personal Care/Hygiene,Toothpaste,FRESHMINT FLUORIDE TOOTHPASTE 1.5 OZ,$0.42 ,COLGATE CAVITY PROTECTION GEL 4.2 OZ,3.11,3.11
+Wisconsin,Personal Care/Hygiene,Deodorant,SUAVE DEODORANT INVISIBLE SOLID POWDER FRESH 1.2 OZ,$1.60 ,SECRET ANTIPERSPIRANT DEODORANT POWDER FRESH 1.7 OZ,2.7,2.7
+Wisconsin,Personal Care/Hygiene,Soap,FRESH SCENT SHAMPOO/BODY WASH SINGLE APPLICATION .34 OZ,$0.08 ,DOVE SENSITIVE BAR SOAP 4 OZ,2.58,2.58
+Wisconsin,Personal Care/Hygiene,Lotion,COCOA BUTTER LOTION 4 OZ,$0.81 ,SAUVE ADVANCED THERAPY LOTION 10 OZ,3.69,3.69
+Wisconsin,Personal Care/Hygiene,Hair Conditioner,SOFTEE CONDITIONER COCONUT 5 OZ,$1.95 ,SUAVE SHAMPOO MOROCCAN SHINE CONDITIONER 12.6 OZ,6.46,6.46
+Wisconsin,Personal Care/Hygiene,Relaxer,DARK & LOVELY RELAXER SYSTEM 6 CT,$8.80 ,DARK & LOVELY RELAXER SYSTEM 6 CT,8.8,8.8
+Wyoming,Food,Ramen,SOUP CHILI RAMEN,$0.47 ,SOUP CHILI RAMEN,0.47,0.47
+Wyoming,Food,Beans,BEANS REFRIED HOT,$0.76 ,BEANS REFRIED FAT F,1.08,1.08
+Wyoming,Food,Peanut Butter,CONDIMENT PEANUT BUTTER CREAMY,$2.53 ,CONDIMENT PEANUT BUTTER CREAMY,2.53,2.53
+Wyoming,Food,Mac and Cheese,MAC & CHEESE VELVEETA 3 OZ,$1.09 ,MAC & CHEESE VELVEETA 3 OZ,1.09,1.09
+Wyoming,Personal Care/Hygiene,Reading Glasses,EYE GLASSES READING,$1.50 ,EYE GLASSES READING,1.5,1.5
+Wyoming,Personal Care/Hygiene,Toothbrush,DENTAL TOOTHBRUSH TEK,$0.60 ,DENTAL TOOTHBRUSH ORAL B,1.86,2.5
+Wyoming,Personal Care/Hygiene,Toothpaste,DENTAL T-PASTE ULTRA BRIGHT,$1.29 ,DENTAL T-PASTE CREST,3,3
+Wyoming,Personal Care/Hygiene,Deodorant,DEODORANT SPEEDST,$1.72 ,DEODORANT DEGREE,2.41,2.41
+Wyoming,Personal Care/Hygiene,Soap,SOAP DIAL ANTIBACTERIAL,$1.48 ,SOAP DOVE,2.03,2.03
+Wyoming,Personal Care/Hygiene,Lotion,LOTION HYPOALLERGENIC,$1.38 ,LOTION ADVANCE THERAPY SUAVE,3.11,3.11
+Wyoming,Personal Care/Hygiene,Hair Conditioner,HAIR DAILY HAIR DRESS,$1.49 ,HAIR COND. PANTENE,6,6
+Wyoming,Personal Care/Hygiene,Relaxer,HAIR RELAXER KIT DARK & LOVELY,$8.44 ,HAIR RELAXER KIT DARK & LOVELY,8.44,8.44
+Wyoming,Personal Care/Hygiene,Electric Fan,"ELEC. FAN 6"" CLIP-ON",$10.02 ,ELEC. FAN 8 INCH,20.1,20.1
