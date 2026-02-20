@@ -1,4 +1,4 @@
-player,position,team,age,club,birth_year,games,games_starts,minutes,minutes_90s,goals,assists,goals_pens,pens_made,pens_att,cards_yellow,cards_red,goals_per90,assists_per90,goals_assists_per90,goals_pens_per90,goals_assists_pens_per90,xg,npxg,xg_assist,npxg_xg_assist,xg_per90,xg_assist_per90,xg_xg_assist_per90,npxg_per90,npxg_xg_assist_per90
+player,position,nationality,age,club,birth_year,games,games_starts,minutes,minutes_90s,goals,assists,goals_pens,pens_made,pens_att,Yel,cards_red,goals_per90,assists_per90,goals_assists_per90,goals_pens_per90,goals_assists_pens_per90,xg,npxg,xg_assist,npxg_xg_assist,xg_per90,xg_assist_per90,xg_xg_assist_per90,npxg_per90,npxg_xg_assist_per90
 Aaron Mooy,MF,Australia,32-094,Celtic,1990,4,4,360,4.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.1,0.1,0.01,0.02,0.03,0.01,0.03
 Aaron Ramsey,MF,Wales,31-357,Nice,1990,3,3,266,3.0,0,0,0,0,0,1,0,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.1,0.01,0.01,0.02,0.01,0.02
 Abdelhamid Sabiri,MF,Morocco,26-020,Sampdoria,1996,5,2,181,2.0,0,1,0,0,0,1,0,0.00,0.50,0.50,0.00,0.50,0.1,0.1,0.9,1.0,0.08,0.53,0.60,0.08,0.60
