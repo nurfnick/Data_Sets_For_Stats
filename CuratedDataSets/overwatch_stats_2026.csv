@@ -1,0 +1,52 @@
+name,pickrate,winrate,hero_role,No.,Role,Nationality.1,Reveal Date,Release Date
+Sierra,31.8,51.0,DAMAGE,51,Damage Recon,United States,31 March 2026,14 April 2026
+Ramattra,10.2,49.6,TANK,36,Tank Stalwart,Nepal,4 November 2022,6 December 2022
+Ana,24.1,46.9,SUPPORT,22,Support Tactician,Egypt,12 July 2016,19 July 2016
+Anran,9.9,52.6,DAMAGE,46,Damage Flanker,China,4 February 2026 (Overwatch 2 renamed back to Overwatch),5 February 2026
+Ashe,9.5,50.0,DAMAGE,29,Damage Sharpshooter,United States,2 November 2018,13 November 2018
+Baptiste,6.9,44.4,SUPPORT,30,Support Tactician,Haiti,25 February 2019,19 March 2019
+Bastion,12.5,46.2,DAMAGE,11,Damage2 Specialist,Unknown,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Brigitte,4.9,51.0,SUPPORT,27,Support Survivor,Sweden,28 February 2018,20 March 2018
+Cassidy,14.7,47.2,DAMAGE,14,Damage1 Sharpshooter,United States,6 March 2015,24 May 2016 (Overwatch released)
+D.Va,7.2,47.5,TANK,19,Tank Initiator,South Korea,6 November 2015,24 May 2016 (Overwatch released)
+Domina,5.5,51.3,TANK,47,Tank Stalwart,India,4 February 2026 (Overwatch 2 renamed back to Overwatch),10 February 2026
+Doomfist,5.2,51.4,TANK,25,"Tank4, 1 Initiator",Nigeria,2 March 2017,27 July 2017
+Echo,4.6,50.2,DAMAGE,32,Damage Recon,Singapore,18 March 2020,14 April 2020
+Emre,13.9,49.1,DAMAGE,48,Damage Specialist,Turkey,4 February 2026 (Overwatch 2 renamed back to Overwatch),10 February 2026
+Freja,2.8,45.8,DAMAGE,43,Damage Recon,Denmark,12 February 2025,22 April 2025
+Genji,11.3,52.9,DAMAGE,21,Damage1 Flanker,Japan,6 November 2015,24 May 2016 (Overwatch released)
+Hanzo,6.1,49.9,DAMAGE,08,Damage2 Sharpshooter,Japan,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Hazard,4.5,53.1,TANK,42,Tank Initiator,Scotland,19 November 2024,10 December 2024
+Illari,9.8,52.4,SUPPORT,38,Support Survivor,Peru,8 August 2023,10 August 2023
+Jetpack Cat,4.4,49.4,SUPPORT,50,Support Tactician,Unknown,4 February 2026 (Overwatch 2 renamed back to Overwatch),10 February 2026
+Junker Queen,4.1,50.8,TANK,34,Tank Stalwart,Australia,12 June 2022,28 June 2022 (Overwatch 2 PvP Beta #2)
+Junkrat,8.2,49.0,DAMAGE,18,Damage2 Specialist,Australia,22 September 2015,24 May 2016 (Overwatch released)
+Juno,19.3,50.5,SUPPORT,41,Support Survivor,Mars,3 November 2023,20 August 2024
+Kiriko,33.5,48.2,SUPPORT,35,Support Medic,Japan,15 September 2022,4 October 2022 (Overwatch 2 released)
+Lifeweaver,11.6,50.7,SUPPORT,37,Support Medic,Thailand,3 April 2023,11 April 2023
+Lúcio,7.7,51.2,SUPPORT,16,Support Tactician,Brazil,5 August 2015,24 May 2016 (Overwatch released)
+Mauga,6.2,49.2,TANK,39,Tank Bruiser,Samoa,3 November 2023,5 December 2023
+Mei,6.9,48.9,DAMAGE,20,Damage2 Specialist,China,6 November 2015,24 May 2016 (Overwatch released)
+Mercy,18.4,49.8,SUPPORT,06,Support Medic,Switzerland,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Mizuki,15.4,51.2,SUPPORT,49,Support Survivor,Japan,4 February 2026 (Overwatch 2 renamed back to Overwatch),10 February 2026
+Moira,26.2,47.7,SUPPORT,26,Support Medic,Ireland,3 November 2017,16 November 2017
+Orisa,11.5,45.1,TANK,24,Tank Bruiser,Numbani,2 March 2017,21 March 2017
+Pharah,4.3,52.8,DAMAGE,04,Damage1 Recon,Egypt,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Reaper,12.6,52.0,DAMAGE,02,Damage1 Flanker,United States,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Reinhardt,11.0,52.6,TANK,05,Tank Stalwart,Germany,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Roadhog,7.2,46.2,TANK,17,Tank Bruiser,Australia,22 September 2015,24 May 2016 (Overwatch released)
+Sigma,12.4,50.7,TANK,31,Tank Stalwart,Netherlands,22 July 2019,13 August 2019
+Sojourn,9.7,44.3,DAMAGE,33,Damage Sharpshooter,Canada,1 November 2019 (Overwatch 2 announced),26 April 2022 (Overwatch 2 PvP Beta #1)
+Soldier: 76,17.4,48.6,DAMAGE,15,Damage1 Specialist,United States,7 July 2015,24 May 2016 (Overwatch released)
+Sombra,2.8,46.9,DAMAGE,23,Damage1 Recon,Mexico,4 November 2016,15 November 2016
+Symmetra,2.9,49.5,DAMAGE,12,Damage3 Specialist,India,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Torbjörn,4.2,50.9,DAMAGE,07,Damage2 Specialist,Sweden,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Tracer,6.2,50.9,DAMAGE,01,Damage1 Flanker,England,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Vendetta,2.0,47.3,DAMAGE,45,Damage Flanker,Italy,17 November 2025,9 December 2025
+Venture,2.6,51.1,DAMAGE,40,Damage Flanker,Canada,3 November 2023,16 April 2024
+Widowmaker,3.2,50.6,DAMAGE,03,Damage2 Sharpshooter,France,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Winston,6.7,50.4,TANK,09,Tank Initiator,The Moon,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
+Wrecking Ball,3.0,51.8,TANK,28,Tank Initiator,The Moon,28 June 2018,24 July 2018
+Wuyang,6.7,50.7,SUPPORT,44,Support Survivor,China,12 February 2025,26 August 2025
+Zarya,5.3,47.4,TANK,13,Tank Bruiser,Russia,6 March 2015,24 May 2016 (Overwatch released)
+Zenyatta,11.1,53.1,SUPPORT,10,Support Tactician,Nepal,7 November 2014 (Overwatch announced),24 May 2016 (Overwatch released)
